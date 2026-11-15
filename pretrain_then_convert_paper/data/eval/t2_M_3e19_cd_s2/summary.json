@@ -1,0 +1,18 @@
+{
+ "run_id": "t2_M_3e19_cd_s2",
+ "size": "M",
+ "route": "sc",
+ "kind": "cooldown",
+ "step": 328053,
+ "flops": 3.0000047398390333e+19,
+ "weights": "ema100",
+ "point": {
+  "omega": 1.0,
+  "t_min": 0.0,
+  "t_max": 1.0
+ },
+ "fid50k": 26.77937736058948,
+ "fid10k_sel": 29.1042295779759,
+ "fid_2nfe_10k": 21.98583818075315,
+ "fid_noguid_10k": 29.1042295779759
+}

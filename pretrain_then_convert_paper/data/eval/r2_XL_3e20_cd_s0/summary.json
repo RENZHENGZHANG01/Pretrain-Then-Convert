@@ -1,0 +1,29 @@
+{
+ "run_id": "r2_XL_3e20_cd_s0",
+ "size": "XL",
+ "route": "imf",
+ "kind": "cooldown",
+ "step": 477653,
+ "flops": 3.000003111090903e+20,
+ "weights": "ema050",
+ "point": {
+  "omega": 5.5,
+  "t_min": 0.3,
+  "t_max": 0.65
+ },
+ "fid50k": 2.8462547138316836,
+ "fid10k_sel": 5.263363739201964,
+ "fid_2nfe_10k": 5.596917951437263,
+ "fid_noguid_10k": 16.544905061608233,
+ "grid1": {
+  "point": {
+   "omega": 7.0,
+   "t_min": 0.4,
+   "t_max": 0.65
+  },
+  "fid50k": 2.893002287420188,
+  "fid10k_sel": 5.305543622890525,
+  "fid_2nfe_10k": 5.53417801473978
+ },
+ "gridext": true
+}

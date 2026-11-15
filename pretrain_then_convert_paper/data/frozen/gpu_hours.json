@@ -1,0 +1,6 @@
+{
+ "train": 17529.372222222228,
+ "eval": 1265.2438888888885,
+ "other": 6.567777777777775,
+ "note": "GPU-hours of all SLURM jobs of the project (sacct), including failed, preempted and duplicate ones"
+}

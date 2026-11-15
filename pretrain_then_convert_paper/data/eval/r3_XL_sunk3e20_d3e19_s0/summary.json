@@ -1,0 +1,29 @@
+{
+ "run_id": "r3_XL_sunk3e20_d3e19_s0",
+ "size": "XL",
+ "route": "imf",
+ "kind": "convert",
+ "step": 47766,
+ "flops": 3.3000050376693305e+20,
+ "weights": "ema100",
+ "point": {
+  "omega": 8.5,
+  "t_min": 0.45,
+  "t_max": 0.65
+ },
+ "fid50k": 2.3793447635059124,
+ "fid10k_sel": 4.9264763811759735,
+ "fid_2nfe_10k": 4.723315967711926,
+ "fid_noguid_10k": 13.434280776884123,
+ "grid1": {
+  "point": {
+   "omega": 7.0,
+   "t_min": 0.4,
+   "t_max": 0.65
+  },
+  "fid50k": 2.3909839982134713,
+  "fid10k_sel": 4.966273075619597,
+  "fid_2nfe_10k": 4.687972549392839
+ },
+ "gridext": true
+}

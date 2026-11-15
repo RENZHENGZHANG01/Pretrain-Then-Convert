@@ -1,0 +1,16 @@
+{
+ "run_id": "r1_B_ext3e19_s0",
+ "size": "B",
+ "route": "fm",
+ "kind": "extend",
+ "step": 510793,
+ "flops": 1.95000342626131e+19,
+ "weights": "ema050",
+ "point": {
+  "omega": 2.5,
+  "t_lo": 0.2,
+  "t_hi": 0.85
+ },
+ "fid50k": 3.9758367226554014,
+ "fid10k_sel": 6.257864868846752
+}

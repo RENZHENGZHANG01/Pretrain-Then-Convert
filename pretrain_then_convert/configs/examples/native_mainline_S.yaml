@@ -1,0 +1,35 @@
+# training config of run r2_S_s0 (osr.experiments.config_for; group grid)
+# torchrun --nproc_per_node <gpus> -m osr.train --config configs/examples/native_mainline_S.yaml
+run_id: r2_S_s0
+out_root: work/runs
+kind: mainline
+route: imf
+size: S
+seed: 0
+flops_end: 8.5e+18
+data:
+  root: work/latents/sdvae_mse_256
+  global_batch: 256
+  micro_batch: 128
+optim:
+  lr: 0.0001
+  betas:
+  - 0.9
+  - 0.95
+  wd: 0.0
+ema:
+  sigma_rels:
+  - 0.05
+  - 0.1
+ckpt_every_min: 20
+log_every: 100
+compile: true
+schedule:
+  warmup_steps: 5000
+milestones:
+- flops: 8.5e+18
+  kind: full
+  tag: cd_1e19
+loss:
+  cfg_beta: 1.0
+  jvp_impl: manual

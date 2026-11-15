@@ -1,0 +1,27 @@
+{
+ "run_id": "r1_M_3e19_cd_s0",
+ "size": "M",
+ "route": "fm",
+ "kind": "cooldown",
+ "step": 392982,
+ "flops": 3.000005743375024e+19,
+ "weights": "raw",
+ "point": {
+  "omega": 5.0,
+  "t_lo": 0.4,
+  "t_hi": 0.65
+ },
+ "fid50k": 2.468363722904371,
+ "fid10k_sel": 4.912398852728018,
+ "grid1": {
+  "point": {
+   "omega": 2.0,
+   "t_lo": 0.2,
+   "t_hi": 0.85
+  },
+  "fid50k": 2.689251230516618,
+  "fid10k_sel": 5.118756696043249
+ },
+ "gridext": true,
+ "gridpolish": true
+}

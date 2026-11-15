@@ -1,0 +1,18 @@
+{
+ "run_id": "r2_B_lr5e-05_1e19_cd_s0",
+ "size": "B",
+ "route": "imf",
+ "kind": "cooldown",
+ "step": 91842,
+ "flops": 1.0000077113606013e+19,
+ "weights": "raw",
+ "point": {
+  "omega": 4.0,
+  "t_min": 0.0,
+  "t_max": 1.0
+ },
+ "fid50k": 22.242855633120712,
+ "fid10k_sel": 24.761985584358627,
+ "fid_2nfe_10k": 21.089668395286026,
+ "fid_noguid_10k": 61.193822707377535
+}

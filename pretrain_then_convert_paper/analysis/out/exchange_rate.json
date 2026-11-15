@@ -1,0 +1,687 @@
+{
+ "by_f": {
+  "0.08-0.10": {
+   "n": 2,
+   "median": 1.0910195218150744,
+   "lo": 1.077718191488171,
+   "hi": 1.1043208521419778,
+   "median_ci95": [
+    0.98301828309574,
+    1.2084396929472099
+   ]
+  },
+  "0.24-0.27": {
+   "n": 8,
+   "median": 1.0878875391291953,
+   "lo": 1.0503598443044937,
+   "hi": 1.243699467561774,
+   "median_ci95": [
+    1.0346906932267994,
+    1.15670714072957
+   ]
+  },
+  "0.50": {
+   "n": 14,
+   "median": 1.0541792123404776,
+   "lo": 0.9422254199819405,
+   "hi": 1.138741726583084,
+   "median_ci95": [
+    0.9895220370659571,
+    1.1129200721486112
+   ]
+  },
+  "0.65": {
+   "n": 7,
+   "median": 0.9450594834737918,
+   "lo": 0.8564487751569564,
+   "hi": 1.0848126357906083,
+   "median_ci95": [
+    0.8723240750193301,
+    1.0283338842552445
+   ]
+  },
+  "0.80": {
+   "n": 14,
+   "median": 0.910741186040255,
+   "lo": 0.7376378978809939,
+   "hi": 1.0183447450178815,
+   "median_ci95": [
+    0.8451314066408222,
+    0.9724858486112429
+   ]
+  },
+  "0.95": {
+   "n": 13,
+   "median": 0.720806019635472,
+   "lo": 0.5218236456378449,
+   "hi": 0.8472824544058488,
+   "median_ci95": [
+    0.6158673289872353,
+    0.7927105252971989
+   ]
+  },
+  "0.99": {
+   "n": 13,
+   "median": 0.3387783606843415,
+   "lo": 0.25762375737546894,
+   "hi": 0.5689224429712821,
+   "median_ci95": [
+    0.3191359083410764,
+    0.4156710338844143
+   ]
+  }
+ },
+ "by_f_quadratic": {
+  "0.08-0.10": {
+   "n": 2,
+   "median": 1.073039982761526,
+   "lo": 1.0594537709499396,
+   "hi": 1.0866261945731126
+  },
+  "0.24-0.27": {
+   "n": 8,
+   "median": 1.0683777702960275,
+   "lo": 1.009711286645561,
+   "hi": 1.1958664571974293
+  },
+  "0.50": {
+   "n": 14,
+   "median": 1.0355885498323252,
+   "lo": 0.9293186770963261,
+   "hi": 1.0940979841532765
+  },
+  "0.65": {
+   "n": 7,
+   "median": 0.9105856703411543,
+   "lo": 0.8422390450246714,
+   "hi": 1.0379447020122345
+  },
+  "0.80": {
+   "n": 14,
+   "median": 0.8756048392379001,
+   "lo": 0.7356830253889437,
+   "hi": 0.976905704510278
+  },
+  "0.95": {
+   "n": 13,
+   "median": 0.6906177907938295,
+   "lo": 0.5154703890740576,
+   "hi": 0.8245646023563322
+  },
+  "0.99": {
+   "n": 13,
+   "median": 0.3299309184531072,
+   "lo": 0.2556939412734057,
+   "hi": 0.5486389317365369
+  }
+ },
+ "cells": [
+  {
+   "size": "XS",
+   "budget": "1e19",
+   "f": 0.25,
+   "ratio": 1.0867224507920976,
+   "extrapolated": false
+  },
+  {
+   "size": "XS",
+   "budget": "1e19",
+   "f": 0.5,
+   "ratio": 0.9611130956929479,
+   "extrapolated": false
+  },
+  {
+   "size": "XS",
+   "budget": "1e19",
+   "f": 0.65,
+   "ratio": 0.8829807464421954,
+   "extrapolated": false
+  },
+  {
+   "size": "XS",
+   "budget": "1e19",
+   "f": 0.8,
+   "ratio": 0.7376378978809939,
+   "extrapolated": false
+  },
+  {
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.25,
+   "ratio": 1.1009927119088456,
+   "extrapolated": false
+  },
+  {
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.5,
+   "ratio": 0.9422254199819405,
+   "extrapolated": false
+  },
+  {
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.65,
+   "ratio": 0.8564487751569564,
+   "extrapolated": false
+  },
+  {
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.8,
+   "ratio": 0.7790021475663387,
+   "extrapolated": false
+  },
+  {
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.95,
+   "ratio": 0.5292082202328884,
+   "extrapolated": false
+  },
+  {
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.99,
+   "ratio": 0.3056354311673979,
+   "extrapolated": false
+  },
+  {
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.25,
+   "ratio": 1.0503598443044937,
+   "extrapolated": false
+  },
+  {
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.5,
+   "ratio": 0.9819077773682946,
+   "extrapolated": false
+  },
+  {
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.65,
+   "ratio": 0.8724137245908582,
+   "extrapolated": false
+  },
+  {
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.8,
+   "ratio": 0.7542321982771413,
+   "extrapolated": false
+  },
+  {
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.95,
+   "ratio": 0.5218236456378449,
+   "extrapolated": false
+  },
+  {
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.99,
+   "ratio": 0.2918348930495916,
+   "extrapolated": false
+  },
+  {
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.27,
+   "ratio": 1.0747092265358855,
+   "extrapolated": false
+  },
+  {
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.5,
+   "ratio": 0.9936798532797761,
+   "extrapolated": false
+  },
+  {
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.65,
+   "ratio": 0.9450594834737918,
+   "extrapolated": false
+  },
+  {
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.8,
+   "ratio": 0.7975062169442982,
+   "extrapolated": false
+  },
+  {
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.95,
+   "ratio": 0.609198259749719,
+   "extrapolated": false
+  },
+  {
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.99,
+   "ratio": 0.33633572543534607,
+   "extrapolated": false
+  },
+  {
+   "size": "B",
+   "budget": "1e20",
+   "f": 0.5,
+   "ratio": 0.9605099593414478,
+   "extrapolated": false
+  },
+  {
+   "size": "B",
+   "budget": "1e20",
+   "f": 0.8,
+   "ratio": 0.846460962910128,
+   "extrapolated": false
+  },
+  {
+   "size": "B",
+   "budget": "1e20",
+   "f": 0.95,
+   "ratio": 0.649313087099589,
+   "extrapolated": false
+  },
+  {
+   "size": "B",
+   "budget": "1e20",
+   "f": 0.99,
+   "ratio": 0.41535507966337,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "1e19",
+   "f": 0.5,
+   "ratio": 1.138741726583084,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "1e19",
+   "f": 0.8,
+   "ratio": 0.9973480341435853,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "1e19",
+   "f": 0.95,
+   "ratio": 0.7021777604147915,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "1e19",
+   "f": 0.99,
+   "ratio": 0.3345269091640627,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.083,
+   "ratio": 1.077718191488171,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.27,
+   "ratio": 1.243699467561774,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.5,
+   "ratio": 1.1132140430825694,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.65,
+   "ratio": 1.0848126357906083,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.8,
+   "ratio": 0.9452746298242523,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.95,
+   "ratio": 0.7758960432078129,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.99,
+   "ratio": 0.4286670412065215,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "1e20",
+   "f": 0.095,
+   "ratio": 1.1043208521419778,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "1e20",
+   "f": 0.24,
+   "ratio": 1.0890526274662928,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "1e20",
+   "f": 0.5,
+   "ratio": 1.0329029024429632,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "1e20",
+   "f": 0.65,
+   "ratio": 1.0144078476049263,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "1e20",
+   "f": 0.8,
+   "ratio": 0.8983281088236349,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "1e20",
+   "f": 0.95,
+   "ratio": 0.750979946734342,
+   "extrapolated": false
+  },
+  {
+   "size": "M",
+   "budget": "1e20",
+   "f": 0.99,
+   "ratio": 0.4987830973365775,
+   "extrapolated": false
+  },
+  {
+   "size": "L",
+   "budget": "1e19",
+   "f": 0.5,
+   "ratio": 1.0379571470724653,
+   "extrapolated": false
+  },
+  {
+   "size": "L",
+   "budget": "1e19",
+   "f": 0.8,
+   "ratio": 0.930794729014503,
+   "extrapolated": false
+  },
+  {
+   "size": "L",
+   "budget": "1e19",
+   "f": 0.95,
+   "ratio": 0.5825566102349415,
+   "extrapolated": false
+  },
+  {
+   "size": "L",
+   "budget": "1e19",
+   "f": 0.99,
+   "ratio": 0.25762375737546894,
+   "extrapolated": false
+  },
+  {
+   "size": "L",
+   "budget": "3e19",
+   "f": 0.5,
+   "ratio": 1.0704012776084897,
+   "extrapolated": false
+  },
+  {
+   "size": "L",
+   "budget": "3e19",
+   "f": 0.8,
+   "ratio": 0.9231542632568752,
+   "extrapolated": false
+  },
+  {
+   "size": "L",
+   "budget": "3e19",
+   "f": 0.95,
+   "ratio": 0.720806019635472,
+   "extrapolated": false
+  },
+  {
+   "size": "L",
+   "budget": "3e19",
+   "f": 0.99,
+   "ratio": 0.2741991913014212,
+   "extrapolated": false
+  },
+  {
+   "size": "L",
+   "budget": "1e20",
+   "f": 0.24,
+   "ratio": 1.0803322449212567,
+   "extrapolated": false
+  },
+  {
+   "size": "L",
+   "budget": "1e20",
+   "f": 0.5,
+   "ratio": 1.1087175610937094,
+   "extrapolated": false
+  },
+  {
+   "size": "L",
+   "budget": "1e20",
+   "f": 0.8,
+   "ratio": 0.8973625387804098,
+   "extrapolated": false
+  },
+  {
+   "size": "L",
+   "budget": "1e20",
+   "f": 0.95,
+   "ratio": 0.7936277308310162,
+   "extrapolated": false
+  },
+  {
+   "size": "L",
+   "budget": "1e20",
+   "f": 0.99,
+   "ratio": 0.5091972839988189,
+   "extrapolated": false
+  },
+  {
+   "size": "L",
+   "budget": "3e20",
+   "f": 0.27,
+   "ratio": 0.9788393725906684,
+   "extrapolated": true
+  },
+  {
+   "size": "L",
+   "budget": "3e20",
+   "f": 0.5,
+   "ratio": 0.9021238986119076,
+   "extrapolated": true
+  },
+  {
+   "size": "L",
+   "budget": "3e20",
+   "f": 0.65,
+   "ratio": 0.8417860694517943,
+   "extrapolated": true
+  },
+  {
+   "size": "L",
+   "budget": "3e20",
+   "f": 0.8,
+   "ratio": 0.7960161830558815,
+   "extrapolated": true
+  },
+  {
+   "size": "L",
+   "budget": "3e20",
+   "f": 0.95,
+   "ratio": 0.5959645433206154,
+   "extrapolated": true
+  },
+  {
+   "size": "L",
+   "budget": "3e20",
+   "f": 0.99,
+   "ratio": 0.4623933540765985,
+   "extrapolated": true
+  },
+  {
+   "size": "XL",
+   "budget": "3e19",
+   "f": 0.5,
+   "ratio": 1.0918326199399062,
+   "extrapolated": false
+  },
+  {
+   "size": "XL",
+   "budget": "3e19",
+   "f": 0.8,
+   "ratio": 1.0164668302811308,
+   "extrapolated": false
+  },
+  {
+   "size": "XL",
+   "budget": "3e19",
+   "f": 0.95,
+   "ratio": 0.8224722927963413,
+   "extrapolated": false
+  },
+  {
+   "size": "XL",
+   "budget": "3e19",
+   "f": 0.99,
+   "ratio": 0.3387783606843415,
+   "extrapolated": false
+  },
+  {
+   "size": "XL",
+   "budget": "1e20",
+   "f": 0.5,
+   "ratio": 1.122896905669033,
+   "extrapolated": false
+  },
+  {
+   "size": "XL",
+   "budget": "1e20",
+   "f": 0.8,
+   "ratio": 1.005337755244696,
+   "extrapolated": false
+  },
+  {
+   "size": "XL",
+   "budget": "1e20",
+   "f": 0.95,
+   "ratio": 0.8472824544058488,
+   "extrapolated": false
+  },
+  {
+   "size": "XL",
+   "budget": "1e20",
+   "f": 0.99,
+   "ratio": 0.5072232122959104,
+   "extrapolated": false
+  },
+  {
+   "size": "XL",
+   "budget": "3e20",
+   "f": 0.27,
+   "ratio": 1.1169797333969007,
+   "extrapolated": false
+  },
+  {
+   "size": "XL",
+   "budget": "3e20",
+   "f": 0.5,
+   "ratio": 1.1200824003867405,
+   "extrapolated": false
+  },
+  {
+   "size": "XL",
+   "budget": "3e20",
+   "f": 0.65,
+   "ratio": 1.0582453481480225,
+   "extrapolated": false
+  },
+  {
+   "size": "XL",
+   "budget": "3e20",
+   "f": 0.8,
+   "ratio": 1.0183447450178815,
+   "extrapolated": false
+  },
+  {
+   "size": "XL",
+   "budget": "3e20",
+   "f": 0.95,
+   "ratio": 0.7725795417482032,
+   "extrapolated": false
+  },
+  {
+   "size": "XL",
+   "budget": "3e20",
+   "f": 0.99,
+   "ratio": 0.5689224429712821,
+   "extrapolated": false
+  },
+  {
+   "size": "H",
+   "budget": "3e20",
+   "f": 0.5,
+   "ratio": 0.8657002863292061,
+   "extrapolated": true
+  },
+  {
+   "size": "H",
+   "budget": "3e20",
+   "f": 0.8,
+   "ratio": 0.6972863525136288,
+   "extrapolated": true
+  },
+  {
+   "size": "H",
+   "budget": "3e20",
+   "f": 0.95,
+   "ratio": 0.6061437159704101,
+   "extrapolated": true
+  },
+  {
+   "size": "H",
+   "budget": "3e20",
+   "f": 0.99,
+   "ratio": 0.4393186452878406,
+   "extrapolated": true
+  }
+ ]
+}

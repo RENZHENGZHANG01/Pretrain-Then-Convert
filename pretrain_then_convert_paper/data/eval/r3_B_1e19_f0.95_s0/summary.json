@@ -1,0 +1,19 @@
+{
+ "run_id": "r3_B_1e19_f0.95_s0",
+ "size": "B",
+ "route": "imf",
+ "kind": "convert",
+ "step": 4592,
+ "flops": 1.0000014553733136e+19,
+ "weights": "ema100",
+ "point": {
+  "omega": 10.5,
+  "t_min": 0.25,
+  "t_max": 0.75
+ },
+ "fid50k": 13.375611171165474,
+ "fid10k_sel": 15.903894811111968,
+ "fid_2nfe_10k": 11.429675191642275,
+ "fid_noguid_10k": 42.44340797177608,
+ "gridext": true
+}

@@ -1,0 +1,16 @@
+{
+ "run_id": "r4_B_L3e20_d1e20_s0",
+ "size": "B",
+ "route": "dmd",
+ "kind": "distill",
+ "step": 76902,
+ "flops": 1.0000070354503572e+20,
+ "weights": "raw",
+ "point": {
+  "omega": 2.0,
+  "t_min": 0.0,
+  "t_max": 1.0
+ },
+ "fid50k": 7.089225527693827,
+ "fid10k_sel": 9.5814120214784
+}

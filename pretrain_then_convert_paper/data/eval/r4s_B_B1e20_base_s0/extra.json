@@ -1,0 +1,17 @@
+{
+ "run_id": "r4s_B_B1e20_base_s0",
+ "weights": "raw",
+ "point": {
+  "omega": 2.5,
+  "t_min": 0.0,
+  "t_max": 1.0
+ },
+ "n": 50000,
+ "fid_jit_recheck": 7.691292596513847,
+ "fid50k_stageC": 7.691292596513847,
+ "fid_adm": 7.505420513204626,
+ "fd_dinov2": 325.78020426685407,
+ "inception_score": 217.4032564524269,
+ "precision": 0.8206799626350403,
+ "recall": 0.3050000071525574
+}

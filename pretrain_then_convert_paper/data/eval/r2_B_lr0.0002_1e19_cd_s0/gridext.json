@@ -1,0 +1,26 @@
+{
+ "run_id": "r2_B_lr0.0002_1e19_cd_s0",
+ "version": 2,
+ "weights": "raw",
+ "old_point": {
+  "omega": 10.5,
+  "t_min": 0.25,
+  "t_max": 0.75
+ },
+ "old_fid10k": 16.08767091606154,
+ "tried": [
+  {
+   "omega": 12.5,
+   "t_min": 0.25,
+   "t_max": 0.75,
+   "fid10k": 16.125163626790197
+  }
+ ],
+ "best_point": {
+  "omega": 10.5,
+  "t_min": 0.25,
+  "t_max": 0.75
+ },
+ "best_fid10k": 16.08767091606154,
+ "changed": false
+}

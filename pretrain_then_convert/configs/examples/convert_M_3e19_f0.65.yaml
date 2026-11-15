@@ -1,0 +1,36 @@
+# training config of run r3_M_3e19_f0.65_s0 (osr.experiments.config_for; group split)
+# torchrun --nproc_per_node <gpus> -m osr.train --config configs/examples/convert_M_3e19_f0.65.yaml
+run_id: r3_M_3e19_f0.65_s0
+out_root: work/runs
+kind: convert
+route: imf
+size: M
+seed: 0
+flops_end: 3.0e+19
+data:
+  root: work/latents/sdvae_mse_256
+  global_batch: 256
+  micro_batch: 64
+optim:
+  lr: 0.0001
+  betas:
+  - 0.9
+  - 0.95
+  wd: 0.0
+ema:
+  sigma_rels:
+  - 0.05
+  - 0.1
+ckpt_every_min: 20
+log_every: 100
+compile: true
+schedule:
+  warmup_steps: 2000
+  warmup_frac: 0.1
+  cooldown_frac: 0.15
+  cooldown_shape: linear
+init:
+  from: work/runs/r1_M_ext3e19_s0/milestones/f0.65_3e19.pt
+loss:
+  cfg_beta: 2.0
+  jvp_impl: manual

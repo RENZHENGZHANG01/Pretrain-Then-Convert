@@ -1,0 +1,18 @@
+{
+ "run_id": "r3_XL_1e20_f0.80_s0",
+ "size": "XL",
+ "route": "imf",
+ "kind": "convert",
+ "step": 31844,
+ "flops": 1.0000041181812307e+20,
+ "weights": "raw",
+ "point": {
+  "omega": 5.5,
+  "t_min": 0.25,
+  "t_max": 0.75
+ },
+ "fid50k": 3.538380884611854,
+ "fid10k_sel": 5.86477618737274,
+ "fid_2nfe_10k": 6.67296793724654,
+ "fid_noguid_10k": 17.2393698459004
+}

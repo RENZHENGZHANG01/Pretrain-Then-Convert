@@ -1,0 +1,1173 @@
+{
+ "run_id": "r1_XL_3e20_cd_s0",
+ "size": "XL",
+ "select": {
+  "1|euler|1|0|1": {
+   "steps": 1,
+   "solver": "euler",
+   "omega": 1.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 1,
+   "fid10k": 320.26303997651206
+  },
+  "1|euler|1.5|0|1": {
+   "steps": 1,
+   "solver": "euler",
+   "omega": 1.5,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 2,
+   "fid10k": 302.0029266559015
+  },
+  "1|euler|1.5|0.3|0.7": {
+   "steps": 1,
+   "solver": "euler",
+   "omega": 1.5,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 1,
+   "fid10k": 320.26303997651206
+  },
+  "1|euler|2|0|1": {
+   "steps": 1,
+   "solver": "euler",
+   "omega": 2.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 2,
+   "fid10k": 285.6875251059691
+  },
+  "1|euler|2|0.3|0.7": {
+   "steps": 1,
+   "solver": "euler",
+   "omega": 2.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 1,
+   "fid10k": 320.26303997651206
+  },
+  "1|euler|3|0|1": {
+   "steps": 1,
+   "solver": "euler",
+   "omega": 3.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 2,
+   "fid10k": 261.7913575549938
+  },
+  "1|euler|3|0.3|0.7": {
+   "steps": 1,
+   "solver": "euler",
+   "omega": 3.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 1,
+   "fid10k": 320.26303997651206
+  },
+  "1|euler|4|0|1": {
+   "steps": 1,
+   "solver": "euler",
+   "omega": 4.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 2,
+   "fid10k": 247.6582380528
+  },
+  "1|euler|4|0.3|0.7": {
+   "steps": 1,
+   "solver": "euler",
+   "omega": 4.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 1,
+   "fid10k": 320.26303997651206
+  },
+  "1|euler|5|0|1": {
+   "steps": 1,
+   "solver": "euler",
+   "omega": 5.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 2,
+   "fid10k": 237.853582349093
+  },
+  "1|euler|5|0.3|0.7": {
+   "steps": 1,
+   "solver": "euler",
+   "omega": 5.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 1,
+   "fid10k": 320.26303997651206
+  },
+  "2|euler|1|0|1": {
+   "steps": 2,
+   "solver": "euler",
+   "omega": 1.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 2,
+   "fid10k": 190.7370349799851
+  },
+  "2|euler|1.5|0|1": {
+   "steps": 2,
+   "solver": "euler",
+   "omega": 1.5,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 4,
+   "fid10k": 170.4630702815781
+  },
+  "2|euler|1.5|0.3|0.7": {
+   "steps": 2,
+   "solver": "euler",
+   "omega": 1.5,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 3,
+   "fid10k": 179.2723949358057
+  },
+  "2|euler|2|0|1": {
+   "steps": 2,
+   "solver": "euler",
+   "omega": 2.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 4,
+   "fid10k": 152.86601615749504
+  },
+  "2|euler|2|0.3|0.7": {
+   "steps": 2,
+   "solver": "euler",
+   "omega": 2.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 3,
+   "fid10k": 168.9627449115247
+  },
+  "2|euler|3|0|1": {
+   "steps": 2,
+   "solver": "euler",
+   "omega": 3.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 4,
+   "fid10k": 126.63053781075342
+  },
+  "2|euler|3|0.3|0.7": {
+   "steps": 2,
+   "solver": "euler",
+   "omega": 3.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 3,
+   "fid10k": 153.4610400494483
+  },
+  "2|euler|4|0|1": {
+   "steps": 2,
+   "solver": "euler",
+   "omega": 4.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 4,
+   "fid10k": 110.32230870121589
+  },
+  "2|euler|4|0.3|0.7": {
+   "steps": 2,
+   "solver": "euler",
+   "omega": 4.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 3,
+   "fid10k": 142.14586279943745
+  },
+  "2|euler|5|0|1": {
+   "steps": 2,
+   "solver": "euler",
+   "omega": 5.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 4,
+   "fid10k": 103.4070788800928
+  },
+  "2|euler|5|0.3|0.7": {
+   "steps": 2,
+   "solver": "euler",
+   "omega": 5.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 3,
+   "fid10k": 134.28355575208462
+  },
+  "2|heun|1|0|1": {
+   "steps": 2,
+   "solver": "heun",
+   "omega": 1.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 2,
+   "fid10k": 327.20596580527194
+  },
+  "2|heun|1.5|0|1": {
+   "steps": 2,
+   "solver": "heun",
+   "omega": 1.5,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 4,
+   "fid10k": 301.9192240012164
+  },
+  "2|heun|1.5|0.3|0.7": {
+   "steps": 2,
+   "solver": "heun",
+   "omega": 1.5,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 2,
+   "fid10k": 327.20596580527194
+  },
+  "2|heun|2|0|1": {
+   "steps": 2,
+   "solver": "heun",
+   "omega": 2.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 4,
+   "fid10k": 276.34898285529687
+  },
+  "2|heun|2|0.3|0.7": {
+   "steps": 2,
+   "solver": "heun",
+   "omega": 2.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 2,
+   "fid10k": 327.20596580527194
+  },
+  "2|heun|3|0|1": {
+   "steps": 2,
+   "solver": "heun",
+   "omega": 3.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 4,
+   "fid10k": 233.40292200898114
+  },
+  "2|heun|3|0.3|0.7": {
+   "steps": 2,
+   "solver": "heun",
+   "omega": 3.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 2,
+   "fid10k": 327.20596580527194
+  },
+  "2|heun|4|0|1": {
+   "steps": 2,
+   "solver": "heun",
+   "omega": 4.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 4,
+   "fid10k": 201.88148316405866
+  },
+  "2|heun|4|0.3|0.7": {
+   "steps": 2,
+   "solver": "heun",
+   "omega": 4.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 2,
+   "fid10k": 327.20596580527194
+  },
+  "2|heun|5|0|1": {
+   "steps": 2,
+   "solver": "heun",
+   "omega": 5.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 4,
+   "fid10k": 181.0602965462187
+  },
+  "2|heun|5|0.3|0.7": {
+   "steps": 2,
+   "solver": "heun",
+   "omega": 5.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 2,
+   "fid10k": 327.20596580527194
+  },
+  "4|euler|1|0|1": {
+   "steps": 4,
+   "solver": "euler",
+   "omega": 1.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 4,
+   "fid10k": 96.93868417301701
+  },
+  "4|euler|1.5|0|1": {
+   "steps": 4,
+   "solver": "euler",
+   "omega": 1.5,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 8,
+   "fid10k": 48.99124203685227
+  },
+  "4|euler|1.5|0.3|0.7": {
+   "steps": 4,
+   "solver": "euler",
+   "omega": 1.5,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 5,
+   "fid10k": 80.72753247346947
+  },
+  "4|euler|2|0|1": {
+   "steps": 4,
+   "solver": "euler",
+   "omega": 2.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 8,
+   "fid10k": 25.911955168755355
+  },
+  "4|euler|2|0.3|0.7": {
+   "steps": 4,
+   "solver": "euler",
+   "omega": 2.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 5,
+   "fid10k": 67.80529243804313
+  },
+  "4|euler|3|0|1": {
+   "steps": 4,
+   "solver": "euler",
+   "omega": 3.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 8,
+   "fid10k": 12.994849615608246
+  },
+  "4|euler|3|0.3|0.7": {
+   "steps": 4,
+   "solver": "euler",
+   "omega": 3.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 5,
+   "fid10k": 50.792130729197766
+  },
+  "4|euler|4|0|1": {
+   "steps": 4,
+   "solver": "euler",
+   "omega": 4.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 8,
+   "fid10k": 11.734267301809155
+  },
+  "4|euler|4|0.3|0.7": {
+   "steps": 4,
+   "solver": "euler",
+   "omega": 4.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 5,
+   "fid10k": 41.27757346587066
+  },
+  "4|euler|5|0|1": {
+   "steps": 4,
+   "solver": "euler",
+   "omega": 5.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 8,
+   "fid10k": 12.118786937223035
+  },
+  "4|euler|5|0.3|0.7": {
+   "steps": 4,
+   "solver": "euler",
+   "omega": 5.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 5,
+   "fid10k": 35.72431755162563
+  },
+  "4|heun|1|0|1": {
+   "steps": 4,
+   "solver": "heun",
+   "omega": 1.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 4,
+   "fid10k": 138.82025235617027
+  },
+  "4|heun|1.5|0|1": {
+   "steps": 4,
+   "solver": "heun",
+   "omega": 1.5,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 8,
+   "fid10k": 113.71685206843688
+  },
+  "4|heun|1.5|0.3|0.7": {
+   "steps": 4,
+   "solver": "heun",
+   "omega": 1.5,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 6,
+   "fid10k": 125.3846995768389
+  },
+  "4|heun|2|0|1": {
+   "steps": 4,
+   "solver": "heun",
+   "omega": 2.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 8,
+   "fid10k": 90.51550283159287
+  },
+  "4|heun|2|0.3|0.7": {
+   "steps": 4,
+   "solver": "heun",
+   "omega": 2.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 6,
+   "fid10k": 113.35507254521616
+  },
+  "4|heun|3|0|1": {
+   "steps": 4,
+   "solver": "heun",
+   "omega": 3.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 8,
+   "fid10k": 61.03580238094429
+  },
+  "4|heun|3|0.3|0.7": {
+   "steps": 4,
+   "solver": "heun",
+   "omega": 3.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 6,
+   "fid10k": 94.42805748068031
+  },
+  "4|heun|4|0|1": {
+   "steps": 4,
+   "solver": "heun",
+   "omega": 4.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 8,
+   "fid10k": 46.75284040001179
+  },
+  "4|heun|4|0.3|0.7": {
+   "steps": 4,
+   "solver": "heun",
+   "omega": 4.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 6,
+   "fid10k": 82.25744187431246
+  },
+  "4|heun|5|0|1": {
+   "steps": 4,
+   "solver": "heun",
+   "omega": 5.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 8,
+   "fid10k": 42.46122765096874
+  },
+  "4|heun|5|0.3|0.7": {
+   "steps": 4,
+   "solver": "heun",
+   "omega": 5.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 6,
+   "fid10k": 75.2533946781711
+  },
+  "8|euler|1|0|1": {
+   "steps": 8,
+   "solver": "euler",
+   "omega": 1.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 8,
+   "fid10k": 30.683485685064454
+  },
+  "8|euler|1.5|0|1": {
+   "steps": 8,
+   "solver": "euler",
+   "omega": 1.5,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 16,
+   "fid10k": 9.741391541345138
+  },
+  "8|euler|1.5|0.3|0.7": {
+   "steps": 8,
+   "solver": "euler",
+   "omega": 1.5,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 11,
+   "fid10k": 18.74021655290329
+  },
+  "8|euler|2|0|1": {
+   "steps": 8,
+   "solver": "euler",
+   "omega": 2.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 16,
+   "fid10k": 7.173563890567323
+  },
+  "8|euler|2|0.3|0.7": {
+   "steps": 8,
+   "solver": "euler",
+   "omega": 2.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 11,
+   "fid10k": 12.730339419257348
+  },
+  "8|euler|3|0|1": {
+   "steps": 8,
+   "solver": "euler",
+   "omega": 3.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 16,
+   "fid10k": 10.981443543719763
+  },
+  "8|euler|3|0.3|0.7": {
+   "steps": 8,
+   "solver": "euler",
+   "omega": 3.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 11,
+   "fid10k": 7.906579550542801
+  },
+  "8|euler|4|0|1": {
+   "steps": 8,
+   "solver": "euler",
+   "omega": 4.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 16,
+   "fid10k": 14.093889904530897
+  },
+  "8|euler|4|0.3|0.7": {
+   "steps": 8,
+   "solver": "euler",
+   "omega": 4.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 11,
+   "fid10k": 6.4597876456702465
+  },
+  "8|euler|5|0|1": {
+   "steps": 8,
+   "solver": "euler",
+   "omega": 5.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 16,
+   "fid10k": 15.771917859040343
+  },
+  "8|euler|5|0.3|0.7": {
+   "steps": 8,
+   "solver": "euler",
+   "omega": 5.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 11,
+   "fid10k": 6.034561927477057
+  },
+  "8|heun|1|0|1": {
+   "steps": 8,
+   "solver": "heun",
+   "omega": 1.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 8,
+   "fid10k": 29.47924860658867
+  },
+  "8|heun|1.5|0|1": {
+   "steps": 8,
+   "solver": "heun",
+   "omega": 1.5,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 16,
+   "fid10k": 9.97800595053468
+  },
+  "8|heun|1.5|0.3|0.7": {
+   "steps": 8,
+   "solver": "heun",
+   "omega": 1.5,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 10,
+   "fid10k": 21.797231776515787
+  },
+  "8|heun|2|0|1": {
+   "steps": 8,
+   "solver": "heun",
+   "omega": 2.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 16,
+   "fid10k": 6.476923112044915
+  },
+  "8|heun|2|0.3|0.7": {
+   "steps": 8,
+   "solver": "heun",
+   "omega": 2.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 10,
+   "fid10k": 17.057322190960406
+  },
+  "8|heun|3|0|1": {
+   "steps": 8,
+   "solver": "heun",
+   "omega": 3.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 16,
+   "fid10k": 8.962202926535383
+  },
+  "8|heun|3|0.3|0.7": {
+   "steps": 8,
+   "solver": "heun",
+   "omega": 3.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 10,
+   "fid10k": 11.961400468322779
+  },
+  "8|heun|4|0|1": {
+   "steps": 8,
+   "solver": "heun",
+   "omega": 4.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 16,
+   "fid10k": 11.615801402956663
+  },
+  "8|heun|4|0.3|0.7": {
+   "steps": 8,
+   "solver": "heun",
+   "omega": 4.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 10,
+   "fid10k": 9.552349050748319
+  },
+  "8|heun|5|0|1": {
+   "steps": 8,
+   "solver": "heun",
+   "omega": 5.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 16,
+   "fid10k": 12.768646286363207
+  },
+  "8|heun|5|0.3|0.7": {
+   "steps": 8,
+   "solver": "heun",
+   "omega": 5.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 10,
+   "fid10k": 8.34792568803232
+  },
+  "16|euler|1|0|1": {
+   "steps": 16,
+   "solver": "euler",
+   "omega": 1.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 16,
+   "fid10k": 15.676817883429237
+  },
+  "16|euler|1.5|0|1": {
+   "steps": 16,
+   "solver": "euler",
+   "omega": 1.5,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 32,
+   "fid10k": 5.118257452071077
+  },
+  "16|euler|1.5|0.3|0.7": {
+   "steps": 16,
+   "solver": "euler",
+   "omega": 1.5,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 23,
+   "fid10k": 7.923178023468154
+  },
+  "16|euler|2|0|1": {
+   "steps": 16,
+   "solver": "euler",
+   "omega": 2.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 32,
+   "fid10k": 6.853695393303042
+  },
+  "16|euler|2|0.3|0.7": {
+   "steps": 16,
+   "solver": "euler",
+   "omega": 2.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 23,
+   "fid10k": 5.390647912121722
+  },
+  "16|euler|3|0|1": {
+   "steps": 16,
+   "solver": "euler",
+   "omega": 3.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 32,
+   "fid10k": 12.406041524516013
+  },
+  "16|euler|3|0.3|0.7": {
+   "steps": 16,
+   "solver": "euler",
+   "omega": 3.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 23,
+   "fid10k": 4.7083660678641195
+  },
+  "16|euler|4|0|1": {
+   "steps": 16,
+   "solver": "euler",
+   "omega": 4.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 32,
+   "fid10k": 15.511968513300928
+  },
+  "16|euler|4|0.3|0.7": {
+   "steps": 16,
+   "solver": "euler",
+   "omega": 4.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 23,
+   "fid10k": 5.291621210358755
+  },
+  "16|euler|5|0|1": {
+   "steps": 16,
+   "solver": "euler",
+   "omega": 5.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 32,
+   "fid10k": 17.162036186967498
+  },
+  "16|euler|5|0.3|0.7": {
+   "steps": 16,
+   "solver": "euler",
+   "omega": 5.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 23,
+   "fid10k": 6.0104074400729814
+  },
+  "16|heun|1|0|1": {
+   "steps": 16,
+   "solver": "heun",
+   "omega": 1.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 16,
+   "fid10k": 13.474571313327829
+  },
+  "16|heun|1.5|0|1": {
+   "steps": 16,
+   "solver": "heun",
+   "omega": 1.5,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 32,
+   "fid10k": 4.5018182003692
+  },
+  "16|heun|1.5|0.3|0.7": {
+   "steps": 16,
+   "solver": "heun",
+   "omega": 1.5,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 22,
+   "fid10k": 7.448060570654036
+  },
+  "16|heun|2|0|1": {
+   "steps": 16,
+   "solver": "heun",
+   "omega": 2.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 32,
+   "fid10k": 6.496571256310119
+  },
+  "16|heun|2|0.3|0.7": {
+   "steps": 16,
+   "solver": "heun",
+   "omega": 2.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 22,
+   "fid10k": 5.284635079952238
+  },
+  "16|heun|3|0|1": {
+   "steps": 16,
+   "solver": "heun",
+   "omega": 3.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 32,
+   "fid10k": 11.87472182569934
+  },
+  "16|heun|3|0.3|0.7": {
+   "steps": 16,
+   "solver": "heun",
+   "omega": 3.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 22,
+   "fid10k": 4.364281624052239
+  },
+  "16|heun|4|0|1": {
+   "steps": 16,
+   "solver": "heun",
+   "omega": 4.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 32,
+   "fid10k": 14.776829304147498
+  },
+  "16|heun|4|0.3|0.7": {
+   "steps": 16,
+   "solver": "heun",
+   "omega": 4.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 22,
+   "fid10k": 4.7355522906343595
+  },
+  "16|heun|5|0|1": {
+   "steps": 16,
+   "solver": "heun",
+   "omega": 5.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 32,
+   "fid10k": 16.324539730718186
+  },
+  "16|heun|5|0.3|0.7": {
+   "steps": 16,
+   "solver": "heun",
+   "omega": 5.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 22,
+   "fid10k": 5.269440460461169
+  },
+  "32|euler|1|0|1": {
+   "steps": 32,
+   "solver": "euler",
+   "omega": 1.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 32,
+   "fid10k": 11.835002442917585
+  },
+  "32|euler|1.5|0|1": {
+   "steps": 32,
+   "solver": "euler",
+   "omega": 1.5,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 64,
+   "fid10k": 4.488463214287719
+  },
+  "32|euler|1.5|0.3|0.7": {
+   "steps": 32,
+   "solver": "euler",
+   "omega": 1.5,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 45,
+   "fid10k": 6.149618061205672
+  },
+  "32|euler|2|0|1": {
+   "steps": 32,
+   "solver": "euler",
+   "omega": 2.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 64,
+   "fid10k": 7.288323375380514
+  },
+  "32|euler|2|0.3|0.7": {
+   "steps": 32,
+   "solver": "euler",
+   "omega": 2.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 45,
+   "fid10k": 4.405789107369628
+  },
+  "32|euler|3|0|1": {
+   "steps": 32,
+   "solver": "euler",
+   "omega": 3.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 64,
+   "fid10k": 12.948365647969297
+  },
+  "32|euler|3|0.3|0.7": {
+   "steps": 32,
+   "solver": "euler",
+   "omega": 3.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 45,
+   "fid10k": 4.264538283009017
+  },
+  "32|euler|4|0|1": {
+   "steps": 32,
+   "solver": "euler",
+   "omega": 4.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 64,
+   "fid10k": 16.05457674631515
+  },
+  "32|euler|4|0.3|0.7": {
+   "steps": 32,
+   "solver": "euler",
+   "omega": 4.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 45,
+   "fid10k": 5.036413860726384
+  },
+  "32|euler|5|0|1": {
+   "steps": 32,
+   "solver": "euler",
+   "omega": 5.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 64,
+   "fid10k": 17.49755812374724
+  },
+  "32|euler|5|0.3|0.7": {
+   "steps": 32,
+   "solver": "euler",
+   "omega": 5.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 45,
+   "fid10k": 5.785251930703623
+  },
+  "32|heun|1|0|1": {
+   "steps": 32,
+   "solver": "heun",
+   "omega": 1.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 32,
+   "fid10k": 10.56653928111001
+  },
+  "32|heun|1.5|0|1": {
+   "steps": 32,
+   "solver": "heun",
+   "omega": 1.5,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 64,
+   "fid10k": 4.36551315168208
+  },
+  "32|heun|1.5|0.3|0.7": {
+   "steps": 32,
+   "solver": "heun",
+   "omega": 1.5,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 46,
+   "fid10k": 5.337042281741617
+  },
+  "32|heun|2|0|1": {
+   "steps": 32,
+   "solver": "heun",
+   "omega": 2.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 64,
+   "fid10k": 7.199609647619525
+  },
+  "32|heun|2|0.3|0.7": {
+   "steps": 32,
+   "solver": "heun",
+   "omega": 2.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 46,
+   "fid10k": 4.065382050625317
+  },
+  "32|heun|3|0|1": {
+   "steps": 32,
+   "solver": "heun",
+   "omega": 3.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 64,
+   "fid10k": 12.842127769830086
+  },
+  "32|heun|3|0.3|0.7": {
+   "steps": 32,
+   "solver": "heun",
+   "omega": 3.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 46,
+   "fid10k": 4.434750663618274
+  },
+  "32|heun|4|0|1": {
+   "steps": 32,
+   "solver": "heun",
+   "omega": 4.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 64,
+   "fid10k": 15.641472679018477
+  },
+  "32|heun|4|0.3|0.7": {
+   "steps": 32,
+   "solver": "heun",
+   "omega": 4.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 46,
+   "fid10k": 5.336566314069842
+  },
+  "32|heun|5|0|1": {
+   "steps": 32,
+   "solver": "heun",
+   "omega": 5.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 64,
+   "fid10k": 17.028041410596813
+  },
+  "32|heun|5|0.3|0.7": {
+   "steps": 32,
+   "solver": "heun",
+   "omega": 5.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 46,
+   "fid10k": 6.162402334926071
+  }
+ },
+ "final": {
+  "1": {
+   "steps": 1,
+   "solver": "euler",
+   "omega": 5.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 2,
+   "fid10k": 237.853582349093,
+   "fid50k": 236.78616813476563,
+   "inception_score": 3.1349784687643085
+  },
+  "2": {
+   "steps": 2,
+   "solver": "euler",
+   "omega": 5.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 4,
+   "fid10k": 103.4070788800928,
+   "fid50k": 100.42731359771182,
+   "inception_score": 12.82487871919101
+  },
+  "4": {
+   "steps": 4,
+   "solver": "euler",
+   "omega": 4.0,
+   "t_lo": 0.0,
+   "t_hi": 1.0,
+   "nfe": 8,
+   "fid10k": 11.734267301809155,
+   "fid50k": 9.483844327864915,
+   "inception_score": 304.82688071153837
+  },
+  "8": {
+   "steps": 8,
+   "solver": "euler",
+   "omega": 5.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 11,
+   "fid10k": 6.034561927477057,
+   "fid50k": 3.6073465988552584,
+   "inception_score": 315.0797107009962
+  },
+  "16": {
+   "steps": 16,
+   "solver": "heun",
+   "omega": 3.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 22,
+   "fid10k": 4.364281624052239,
+   "fid50k": 1.8240387177527282,
+   "inception_score": 299.36971739056986
+  },
+  "32": {
+   "steps": 32,
+   "solver": "heun",
+   "omega": 2.0,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 46,
+   "fid10k": 4.065382050625317,
+   "fid50k": 1.5254483475746383,
+   "inception_score": 263.01421180777317
+  },
+  "50": {
+   "steps": 50,
+   "solver": "euler",
+   "omega": 2.5,
+   "t_lo": 0.3,
+   "t_hi": 0.7,
+   "nfe": 70,
+   "fid50k": 1.468019311249634,
+   "source": "summary.json (main evaluation)"
+  }
+ }
+}

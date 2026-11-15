@@ -1,0 +1,1630 @@
+{
+ "summary": {
+  "R1": {
+   "n_cells": 18,
+   "epochs_range": [
+    11.203385663227357,
+    785.2466758822234
+   ],
+   "corr_resid_logepochs": -0.18299082319050286,
+   "slope_resid_per_log_epoch": -0.013507872645484881
+  },
+  "NAT": {
+   "n_cells": 21,
+   "epochs_range": [
+    4.6085982545601,
+    550.5458570194205
+   ],
+   "corr_resid_logepochs": -0.22800846860843196,
+   "slope_resid_per_log_epoch": -0.03430208054481896
+  },
+  "CONV": {
+   "n_cells": 16,
+   "epochs_range": [
+    9.884321251968949,
+    353.46380837185535
+   ],
+   "corr_resid_logepochs": -0.1937962362104519,
+   "slope_resid_per_log_epoch": -0.01975531871142277
+  },
+  "max_epochs_per_route_budget": {
+   "R1_1e19": 198.12636447863548,
+   "R1_3e19": 157.02383842231342,
+   "R1_1e20": 523.4121952875777,
+   "R1_3e20": 785.246675882223,
+   "NAT_1e19": 69.05723922017972,
+   "NAT_3e19": 207.17151784271684,
+   "NAT_1e20": 183.5152856731402,
+   "NAT_3e20": 550.5458570194206,
+   "CONV_1e19": 172.31238239490912,
+   "CONV_3e19": 156.00410090044838,
+   "CONV_1e20": 520.0131368206349,
+   "CONV_3e20": 334.11764030471113
+  },
+  "frontier_epochs": {
+   "CONV_1e19": {
+    "size": "S",
+    "f": 0.5,
+    "epochs": 77.28654137082178
+   },
+   "CONV_1e20": {
+    "size": "M",
+    "f": 0.65,
+    "epochs": 206.50699768150895
+   },
+   "CONV_3e19": {
+    "size": "M",
+    "f": 0.65,
+    "epochs": 61.95207932267044
+   },
+   "CONV_3e20": {
+    "size": "XL",
+    "f": 0.5,
+    "epochs": 159.75773354150203
+   },
+   "NAT_1e19": {
+    "size": "S",
+    "f": 0.0,
+    "epochs": 40.03649797411266
+   },
+   "NAT_1e20": {
+    "size": "M",
+    "f": 0.0,
+    "epochs": 103.91485887476027
+   },
+   "NAT_3e19": {
+    "size": "S",
+    "f": 0.0,
+    "epochs": 120.1090942866933
+   },
+   "NAT_3e20": {
+    "size": "M",
+    "f": 0.0,
+    "epochs": 311.74457662428085
+   },
+   "R1_1e19": {
+    "size": "B",
+    "f": null,
+    "epochs": 52.34127947410447
+   },
+   "R1_1e20": {
+    "size": "L",
+    "f": null,
+    "epochs": 112.03205827187244
+   },
+   "R1_3e19": {
+    "size": "M",
+    "f": null,
+    "epochs": 78.52480746069794
+   },
+   "R1_3e20": {
+    "size": "XL",
+    "f": null,
+    "epochs": 224.07170962099397
+   }
+  }
+ },
+ "cells": [
+  {
+   "route": "R1",
+   "size": "B",
+   "budget": "1e19",
+   "f": null,
+   "seed": 0,
+   "epochs": 52.34127947410447,
+   "logfid": 1.3843474149163106
+  },
+  {
+   "route": "R1",
+   "size": "B",
+   "budget": "1e19",
+   "f": null,
+   "seed": 1,
+   "epochs": 52.34127947410447,
+   "logfid": 1.3925061998053176
+  },
+  {
+   "route": "R1",
+   "size": "B",
+   "budget": "1e20",
+   "f": null,
+   "seed": 0,
+   "epochs": 523.4121952875777,
+   "logfid": 0.820087675678257
+  },
+  {
+   "route": "R1",
+   "size": "B",
+   "budget": "3e19",
+   "f": null,
+   "seed": 0,
+   "epochs": 157.02383842231342,
+   "logfid": 0.9546120491640087
+  },
+  {
+   "route": "R1",
+   "size": "B",
+   "budget": "3e19",
+   "f": null,
+   "seed": 1,
+   "epochs": 157.02383842231342,
+   "logfid": 0.959893816504644
+  },
+  {
+   "route": "R1",
+   "size": "H",
+   "budget": "1e20",
+   "f": null,
+   "seed": 0,
+   "epochs": 33.673699057187704,
+   "logfid": 0.7743264743235307
+  },
+  {
+   "route": "R1",
+   "size": "H",
+   "budget": "3e20",
+   "f": null,
+   "seed": 0,
+   "epochs": 101.02109717156311,
+   "logfid": 0.4315438966963458
+  },
+  {
+   "route": "R1",
+   "size": "L",
+   "budget": "1e19",
+   "f": null,
+   "seed": 0,
+   "epochs": 11.203385663227355,
+   "logfid": 1.9106403929685387
+  },
+  {
+   "route": "R1",
+   "size": "L",
+   "budget": "1e19",
+   "f": null,
+   "seed": 1,
+   "epochs": 11.203385663227355,
+   "logfid": 1.8666415655464303
+  },
+  {
+   "route": "R1",
+   "size": "L",
+   "budget": "1e20",
+   "f": null,
+   "seed": 0,
+   "epochs": 112.03205827187244,
+   "logfid": 0.5770538881703573
+  },
+  {
+   "route": "R1",
+   "size": "L",
+   "budget": "3e19",
+   "f": null,
+   "seed": 0,
+   "epochs": 33.60975735403737,
+   "logfid": 1.0314125872342241
+  },
+  {
+   "route": "R1",
+   "size": "L",
+   "budget": "3e19",
+   "f": null,
+   "seed": 1,
+   "epochs": 33.60975735403737,
+   "logfid": 1.0299838225442104
+  },
+  {
+   "route": "R1",
+   "size": "L",
+   "budget": "3e20",
+   "f": null,
+   "seed": 0,
+   "epochs": 336.0961748156173,
+   "logfid": 0.38771029430367754
+  },
+  {
+   "route": "R1",
+   "size": "M",
+   "budget": "1e19",
+   "f": null,
+   "seed": 0,
+   "epochs": 26.174935820232648,
+   "logfid": 1.4332268783510371
+  },
+  {
+   "route": "R1",
+   "size": "M",
+   "budget": "1e19",
+   "f": null,
+   "seed": 1,
+   "epochs": 26.174935820232648,
+   "logfid": 1.4789152813194597
+  },
+  {
+   "route": "R1",
+   "size": "M",
+   "budget": "1e20",
+   "f": null,
+   "seed": 0,
+   "epochs": 261.7489585666818,
+   "logfid": 0.6103424450612348
+  },
+  {
+   "route": "R1",
+   "size": "M",
+   "budget": "3e19",
+   "f": null,
+   "seed": 0,
+   "epochs": 78.52480746069794,
+   "logfid": 0.9035554707534611
+  },
+  {
+   "route": "R1",
+   "size": "M",
+   "budget": "3e19",
+   "f": null,
+   "seed": 1,
+   "epochs": 78.52480746069794,
+   "logfid": 0.8731358617230941
+  },
+  {
+   "route": "R1",
+   "size": "M",
+   "budget": "3e20",
+   "f": null,
+   "seed": 0,
+   "epochs": 785.246675882223,
+   "logfid": 0.4902875506475167
+  },
+  {
+   "route": "R1",
+   "size": "S",
+   "budget": "1e19",
+   "f": null,
+   "seed": 0,
+   "epochs": 114.53697449278665,
+   "logfid": 1.455794788122429
+  },
+  {
+   "route": "R1",
+   "size": "S",
+   "budget": "1e19",
+   "f": null,
+   "seed": 1,
+   "epochs": 114.53697449278665,
+   "logfid": 1.4350633003813398
+  },
+  {
+   "route": "R1",
+   "size": "XL",
+   "budget": "1e20",
+   "f": null,
+   "seed": 0,
+   "epochs": 74.69070308554622,
+   "logfid": 0.6369544973420859
+  },
+  {
+   "route": "R1",
+   "size": "XL",
+   "budget": "3e19",
+   "f": null,
+   "seed": 0,
+   "epochs": 22.4071709620994,
+   "logfid": 1.1815663408131598
+  },
+  {
+   "route": "R1",
+   "size": "XL",
+   "budget": "3e19",
+   "f": null,
+   "seed": 1,
+   "epochs": 22.4071709620994,
+   "logfid": 1.177065805906486
+  },
+  {
+   "route": "R1",
+   "size": "XL",
+   "budget": "3e20",
+   "f": null,
+   "seed": 0,
+   "epochs": 224.07170962099397,
+   "logfid": 0.3839140849080032
+  },
+  {
+   "route": "R1",
+   "size": "XS",
+   "budget": "1e19",
+   "f": null,
+   "seed": 0,
+   "epochs": 198.12636447863548,
+   "logfid": 1.547945748293533
+  },
+  {
+   "route": "NAT",
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 18.35166843978966,
+   "logfid": 2.7146211276921983
+  },
+  {
+   "route": "NAT",
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.0,
+   "seed": 1,
+   "epochs": 18.35166843978966,
+   "logfid": 2.7323419756550313
+  },
+  {
+   "route": "NAT",
+   "size": "B",
+   "budget": "1e20",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 183.5152856731402,
+   "logfid": 1.3375319744678957
+  },
+  {
+   "route": "NAT",
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 55.05460568372429,
+   "logfid": 1.8614941143810686
+  },
+  {
+   "route": "NAT",
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.0,
+   "seed": 1,
+   "epochs": 55.05460568372429,
+   "logfid": 1.88082914348107
+  },
+  {
+   "route": "NAT",
+   "size": "B",
+   "budget": "3e20",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 550.5458570194206,
+   "logfid": 1.1381076583729455
+  },
+  {
+   "route": "NAT",
+   "size": "H",
+   "budget": "1e20",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 14.371896872148596,
+   "logfid": 2.2334997983168656
+  },
+  {
+   "route": "NAT",
+   "size": "H",
+   "budget": "3e20",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 43.11549079862344,
+   "logfid": 1.3115070676895977
+  },
+  {
+   "route": "NAT",
+   "size": "L",
+   "budget": "1e19",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 4.6085982545601,
+   "logfid": 3.5623112327097144
+  },
+  {
+   "route": "NAT",
+   "size": "L",
+   "budget": "1e19",
+   "f": 0.0,
+   "seed": 1,
+   "epochs": 4.6085982545601,
+   "logfid": 3.436395332020476
+  },
+  {
+   "route": "NAT",
+   "size": "L",
+   "budget": "1e20",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 46.084384003022244,
+   "logfid": 1.4815207383459092
+  },
+  {
+   "route": "NAT",
+   "size": "L",
+   "budget": "3e19",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 13.82539512803561,
+   "logfid": 2.540338172425847
+  },
+  {
+   "route": "NAT",
+   "size": "L",
+   "budget": "3e19",
+   "f": 0.0,
+   "seed": 1,
+   "epochs": 13.82539512803561,
+   "logfid": 2.4286058523765583
+  },
+  {
+   "route": "NAT",
+   "size": "L",
+   "budget": "3e20",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 138.25275237342206,
+   "logfid": 0.9312072568468734
+  },
+  {
+   "route": "NAT",
+   "size": "M",
+   "budget": "1e19",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 10.391525851040496,
+   "logfid": 3.2088712852729024
+  },
+  {
+   "route": "NAT",
+   "size": "M",
+   "budget": "1e19",
+   "f": 0.0,
+   "seed": 1,
+   "epochs": 10.391525851040496,
+   "logfid": 3.069879281088193
+  },
+  {
+   "route": "NAT",
+   "size": "M",
+   "budget": "1e20",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 103.91485887476027,
+   "logfid": 1.298622574674199
+  },
+  {
+   "route": "NAT",
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 31.17457755312149,
+   "logfid": 2.112423831190112
+  },
+  {
+   "route": "NAT",
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.0,
+   "seed": 1,
+   "epochs": 31.17457755312149,
+   "logfid": 2.058882701610578
+  },
+  {
+   "route": "NAT",
+   "size": "M",
+   "budget": "3e20",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 311.74457662428085,
+   "logfid": 0.8949957509317226
+  },
+  {
+   "route": "NAT",
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 40.03649797411266,
+   "logfid": 2.5718526463360494
+  },
+  {
+   "route": "NAT",
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.0,
+   "seed": 1,
+   "epochs": 40.03649797411266,
+   "logfid": 2.551781895839261
+  },
+  {
+   "route": "NAT",
+   "size": "S",
+   "budget": "3e19",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 120.1090942866933,
+   "logfid": 1.8055749104810515
+  },
+  {
+   "route": "NAT",
+   "size": "S",
+   "budget": "3e19",
+   "f": 0.0,
+   "seed": 1,
+   "epochs": 120.1090942866933,
+   "logfid": 1.8442429094045683
+  },
+  {
+   "route": "NAT",
+   "size": "XL",
+   "budget": "1e20",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 31.814594038091833,
+   "logfid": 1.713277186716993
+  },
+  {
+   "route": "NAT",
+   "size": "XL",
+   "budget": "3e19",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 9.544498102120956,
+   "logfid": 2.800081659590585
+  },
+  {
+   "route": "NAT",
+   "size": "XL",
+   "budget": "3e19",
+   "f": 0.0,
+   "seed": 1,
+   "epochs": 9.544498102120956,
+   "logfid": 2.766753367992622
+  },
+  {
+   "route": "NAT",
+   "size": "XL",
+   "budget": "3e20",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 95.44358229645316,
+   "logfid": 1.0460039945496218
+  },
+  {
+   "route": "NAT",
+   "size": "XS",
+   "budget": "1e19",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 69.05723922017972,
+   "logfid": 2.609097845083216
+  },
+  {
+   "route": "NAT",
+   "size": "XS",
+   "budget": "3e19",
+   "f": 0.0,
+   "seed": 0,
+   "epochs": 207.17151784271684,
+   "logfid": 1.948136299243136
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.25,
+   "seed": 0,
+   "epochs": 26.84895470224977,
+   "logfid": 2.379140354988147
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.5,
+   "seed": 0,
+   "epochs": 35.34644078253223,
+   "logfid": 2.219185021235865
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.5,
+   "seed": 1,
+   "epochs": 35.34644078253223,
+   "logfid": 2.247226862179197
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.65,
+   "seed": 0,
+   "epochs": 40.444932430701705,
+   "logfid": 2.2469039619837456
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.8,
+   "seed": 0,
+   "epochs": 45.54342407887118,
+   "logfid": 2.312584485346945
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.8,
+   "seed": 1,
+   "epochs": 45.54342407887118,
+   "logfid": 2.288134160062549
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.95,
+   "seed": 0,
+   "epochs": 50.641715909218306,
+   "logfid": 2.593432986778493
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.95,
+   "seed": 1,
+   "epochs": 50.641715909218306,
+   "logfid": 2.579378833476671
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.99,
+   "seed": 0,
+   "epochs": 52.00143357275691,
+   "logfid": 3.055730652781385
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "1e19",
+   "f": 0.99,
+   "seed": 1,
+   "epochs": 52.00143357275691,
+   "logfid": 3.2382566140792086
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "1e20",
+   "f": 0.5,
+   "seed": 0,
+   "epochs": 353.4638083718553,
+   "logfid": 1.2588371291313705
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "1e20",
+   "f": 0.8,
+   "seed": 0,
+   "epochs": 455.4328420639554,
+   "logfid": 1.3392270406261118
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "1e20",
+   "f": 0.95,
+   "seed": 0,
+   "epochs": 506.4173589100055,
+   "logfid": 1.5851140852551489
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "1e20",
+   "f": 0.99,
+   "seed": 0,
+   "epochs": 520.0131368206349,
+   "logfid": 2.0270862004820787
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.27,
+   "seed": 0,
+   "epochs": 82.76977345405857,
+   "logfid": 1.619376244303022
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.5,
+   "seed": 0,
+   "epochs": 106.03912252977435,
+   "logfid": 1.5887580786177682
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.5,
+   "seed": 1,
+   "epochs": 106.03912252977435,
+   "logfid": 1.5851940508649267
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.65,
+   "seed": 0,
+   "epochs": 121.33459747428276,
+   "logfid": 1.5774219592844752
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.8,
+   "seed": 0,
+   "epochs": 136.62987260096884,
+   "logfid": 1.6763470251922468
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.8,
+   "seed": 1,
+   "epochs": 136.62987260096884,
+   "logfid": 1.712770415972751
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.95,
+   "seed": 0,
+   "epochs": 151.92514772765492,
+   "logfid": 1.8752158270574055
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.95,
+   "seed": 1,
+   "epochs": 151.92514772765492,
+   "logfid": 1.958529753977154
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.99,
+   "seed": 0,
+   "epochs": 156.00410090044838,
+   "logfid": 2.442264733745919
+  },
+  {
+   "route": "CONV",
+   "size": "B",
+   "budget": "3e19",
+   "f": 0.99,
+   "seed": 1,
+   "epochs": 156.00410090044838,
+   "logfid": 2.5560639193308172
+  },
+  {
+   "route": "CONV",
+   "size": "H",
+   "budget": "3e20",
+   "f": 0.5,
+   "seed": 0,
+   "epochs": 72.06821759035641,
+   "logfid": 1.0245814257248052
+  },
+  {
+   "route": "CONV",
+   "size": "H",
+   "budget": "3e20",
+   "f": 0.8,
+   "seed": 0,
+   "epochs": 89.43989362896066,
+   "logfid": 1.0596882021089693
+  },
+  {
+   "route": "CONV",
+   "size": "H",
+   "budget": "3e20",
+   "f": 0.95,
+   "seed": 0,
+   "epochs": 98.1257316482628,
+   "logfid": 1.1219846305927155
+  },
+  {
+   "route": "CONV",
+   "size": "H",
+   "budget": "3e20",
+   "f": 0.99,
+   "seed": 0,
+   "epochs": 100.44194179888854,
+   "logfid": 1.4242971002845752
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "1e19",
+   "f": 0.5,
+   "seed": 0,
+   "epochs": 7.905900150712837,
+   "logfid": 2.9540425450767134
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "1e19",
+   "f": 0.5,
+   "seed": 1,
+   "epochs": 7.905900150712837,
+   "logfid": 2.9729990329314107
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "1e19",
+   "f": 0.8,
+   "seed": 0,
+   "epochs": 9.884321251968949,
+   "logfid": 2.8364189776294273
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "1e19",
+   "f": 0.8,
+   "seed": 1,
+   "epochs": 9.884321251968949,
+   "logfid": 2.8959212741965064
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "1e19",
+   "f": 0.95,
+   "seed": 0,
+   "epochs": 10.873631711508176,
+   "logfid": 3.07581588255507
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "1e19",
+   "f": 0.95,
+   "seed": 1,
+   "epochs": 10.873631711508176,
+   "logfid": 3.417522420753461
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "1e19",
+   "f": 0.99,
+   "seed": 0,
+   "epochs": 11.137327943358564,
+   "logfid": 3.838831573061538
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "1e19",
+   "f": 0.99,
+   "seed": 1,
+   "epochs": 11.137327943358564,
+   "logfid": 4.242071902268092
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "1e20",
+   "f": 0.24,
+   "seed": 0,
+   "epochs": 61.91175281307113,
+   "logfid": 1.2563622900677642
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "1e20",
+   "f": 0.5,
+   "seed": 0,
+   "epochs": 79.05820223583899,
+   "logfid": 1.1079657164486705
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "1e20",
+   "f": 0.8,
+   "seed": 0,
+   "epochs": 98.84261306622244,
+   "logfid": 1.2075883134577272
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "1e20",
+   "f": 0.95,
+   "seed": 0,
+   "epochs": 108.73471857250301,
+   "logfid": 1.2826547958854682
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "1e20",
+   "f": 0.99,
+   "seed": 0,
+   "epochs": 111.37248016229626,
+   "logfid": 1.7144265424747718
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "3e19",
+   "f": 0.5,
+   "seed": 0,
+   "epochs": 23.717500634316167,
+   "logfid": 1.9665262443550882
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "3e19",
+   "f": 0.5,
+   "seed": 1,
+   "epochs": 23.717500634316167,
+   "logfid": 1.9671522798516627
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "3e19",
+   "f": 0.8,
+   "seed": 0,
+   "epochs": 29.652763938084497,
+   "logfid": 1.91355876244453
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "3e19",
+   "f": 0.8,
+   "seed": 1,
+   "epochs": 29.652763938084497,
+   "logfid": 1.9439983534274647
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "3e19",
+   "f": 0.95,
+   "seed": 0,
+   "epochs": 32.62049549887984,
+   "logfid": 2.055447876637967
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "3e19",
+   "f": 0.95,
+   "seed": 1,
+   "epochs": 32.62049549887984,
+   "logfid": 2.138047077884781
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "3e19",
+   "f": 0.99,
+   "seed": 0,
+   "epochs": 33.41178401225335,
+   "logfid": 2.8865190910826737
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "3e19",
+   "f": 0.99,
+   "seed": 1,
+   "epochs": 33.41178401225335,
+   "logfid": 3.2000698534718244
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "3e20",
+   "f": 0.27,
+   "seed": 0,
+   "epochs": 192.13130164130882,
+   "logfid": 0.7889484377919352
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "3e20",
+   "f": 0.5,
+   "seed": 0,
+   "epochs": 237.17440688969464,
+   "logfid": 0.7638596404484588
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "3e20",
+   "f": 0.65,
+   "seed": 0,
+   "epochs": 266.85092322635865,
+   "logfid": 0.7740303353063405
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "3e20",
+   "f": 0.8,
+   "seed": 0,
+   "epochs": 296.52743956302265,
+   "logfid": 0.7771152643477314
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "3e20",
+   "f": 0.95,
+   "seed": 0,
+   "epochs": 326.2039558996867,
+   "logfid": 1.0187746386071452
+  },
+  {
+   "route": "CONV",
+   "size": "L",
+   "budget": "3e20",
+   "f": 0.99,
+   "seed": 0,
+   "epochs": 334.11764030471113,
+   "logfid": 1.2605326492022486
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "1e19",
+   "f": 0.5,
+   "seed": 0,
+   "epochs": 18.283305689183603,
+   "logfid": 2.4070057628838923
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "1e19",
+   "f": 0.5,
+   "seed": 1,
+   "epochs": 18.283305689183603,
+   "logfid": 2.5280789513272994
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "1e19",
+   "f": 0.8,
+   "seed": 0,
+   "epochs": 23.018213737811593,
+   "logfid": 2.30836799665697
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "1e19",
+   "f": 0.8,
+   "seed": 1,
+   "epochs": 23.018213737811593,
+   "logfid": 2.4500889606518603
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "1e19",
+   "f": 0.95,
+   "seed": 0,
+   "epochs": 25.385667762125582,
+   "logfid": 2.629406417367821
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "1e19",
+   "f": 0.95,
+   "seed": 1,
+   "epochs": 25.385667762125582,
+   "logfid": 2.643075185802553
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "1e19",
+   "f": 0.99,
+   "seed": 0,
+   "epochs": 26.01704212002861,
+   "logfid": 3.2326895985105346
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "1e19",
+   "f": 0.99,
+   "seed": 1,
+   "epochs": 26.01704212002861,
+   "logfid": 3.475607041297816
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "1e20",
+   "f": 0.095,
+   "seed": 0,
+   "epochs": 118.90900078584536,
+   "logfid": 1.1498715595021793
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "1e20",
+   "f": 0.24,
+   "seed": 0,
+   "epochs": 141.7951223528959,
+   "logfid": 1.099123492867514
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "1e20",
+   "f": 0.5,
+   "seed": 0,
+   "epochs": 182.83185798490197,
+   "logfid": 1.0586718511417288
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "1e20",
+   "f": 0.65,
+   "seed": 0,
+   "epochs": 206.50699768150895,
+   "logfid": 1.0320030948165884
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "1e20",
+   "f": 0.8,
+   "seed": 0,
+   "epochs": 230.18213737811593,
+   "logfid": 1.1136520661193294
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "1e20",
+   "f": 0.95,
+   "seed": 0,
+   "epochs": 253.8572770747229,
+   "logfid": 1.256839889581331
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "1e20",
+   "f": 0.99,
+   "seed": 0,
+   "epochs": 260.1706210181085,
+   "logfid": 1.6570222146599924
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.083,
+   "seed": 0,
+   "epochs": 35.0940927686612,
+   "logfid": 1.9331934315209345
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.27,
+   "seed": 0,
+   "epochs": 44.06301429698763,
+   "logfid": 1.642915010259953
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.5,
+   "seed": 0,
+   "epochs": 54.84971724972847,
+   "logfid": 1.5623628516873198
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.5,
+   "seed": 1,
+   "epochs": 54.84971724972847,
+   "logfid": 1.6557721306471493
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.65,
+   "seed": 0,
+   "epochs": 61.95207932267044,
+   "logfid": 1.555312982637977
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.8,
+   "seed": 0,
+   "epochs": 69.05464121343478,
+   "logfid": 1.5840434521306928
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.8,
+   "seed": 1,
+   "epochs": 69.05464121343478,
+   "logfid": 1.6600572073456077
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.95,
+   "seed": 0,
+   "epochs": 76.1572031041991,
+   "logfid": 1.7021348836810886
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.95,
+   "seed": 1,
+   "epochs": 76.1572031041991,
+   "logfid": 1.8088846742575218
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.99,
+   "seed": 0,
+   "epochs": 78.05112636008583,
+   "logfid": 2.1592774173250877
+  },
+  {
+   "route": "CONV",
+   "size": "M",
+   "budget": "3e19",
+   "f": 0.99,
+   "seed": 1,
+   "epochs": 78.05112636008583,
+   "logfid": 2.506301550541888
+  },
+  {
+   "route": "CONV",
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.25,
+   "seed": 0,
+   "epochs": 58.661619581378396,
+   "logfid": 2.2093769879161838
+  },
+  {
+   "route": "CONV",
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.5,
+   "seed": 0,
+   "epochs": 77.28654137082178,
+   "logfid": 2.1633799151242243
+  },
+  {
+   "route": "CONV",
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.5,
+   "seed": 1,
+   "epochs": 77.28654137082178,
+   "logfid": 2.196911512849727
+  },
+  {
+   "route": "CONV",
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.65,
+   "seed": 0,
+   "epochs": 88.46173422587464,
+   "logfid": 2.1850100778536863
+  },
+  {
+   "route": "CONV",
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.8,
+   "seed": 0,
+   "epochs": 99.63672726310513,
+   "logfid": 2.207809409067903
+  },
+  {
+   "route": "CONV",
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.8,
+   "seed": 1,
+   "epochs": 99.63672726310513,
+   "logfid": 2.1921821149895835
+  },
+  {
+   "route": "CONV",
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.95,
+   "seed": 0,
+   "epochs": 110.81192011815799,
+   "logfid": 2.470189338373764
+  },
+  {
+   "route": "CONV",
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.95,
+   "seed": 1,
+   "epochs": 110.81192011815799,
+   "logfid": 2.560458500271353
+  },
+  {
+   "route": "CONV",
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.99,
+   "seed": 0,
+   "epochs": 113.79185165547867,
+   "logfid": 3.0307146928751156
+  },
+  {
+   "route": "CONV",
+   "size": "S",
+   "budget": "1e19",
+   "f": 0.99,
+   "seed": 1,
+   "epochs": 113.79185165547867,
+   "logfid": 3.0623105536454567
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "1e20",
+   "f": 0.5,
+   "seed": 0,
+   "epochs": 53.25257784716736,
+   "logfid": 1.2844906418253312
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "1e20",
+   "f": 0.8,
+   "seed": 0,
+   "epochs": 66.1154480597416,
+   "logfid": 1.2636692452885243
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "1e20",
+   "f": 0.95,
+   "seed": 0,
+   "epochs": 72.54678325711755,
+   "logfid": 1.3783308170324962
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "1e20",
+   "f": 0.99,
+   "seed": 0,
+   "epochs": 74.26176601285334,
+   "logfid": 1.8772221263610689
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "3e19",
+   "f": 0.5,
+   "seed": 0,
+   "epochs": 15.975833299496909,
+   "logfid": 2.2449906038779064
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "3e19",
+   "f": 0.5,
+   "seed": 1,
+   "epochs": 15.975833299496909,
+   "logfid": 2.2304038994010082
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "3e19",
+   "f": 0.8,
+   "seed": 0,
+   "epochs": 19.83459445435801,
+   "logfid": 2.103388982011427
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "3e19",
+   "f": 0.8,
+   "seed": 1,
+   "epochs": 19.83459445435801,
+   "logfid": 2.1304437504536673
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "3e19",
+   "f": 0.95,
+   "seed": 0,
+   "epochs": 21.763975031788565,
+   "logfid": 2.2157646357406677
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "3e19",
+   "f": 0.95,
+   "seed": 1,
+   "epochs": 21.763975031788565,
+   "logfid": 2.276591623927905
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "3e19",
+   "f": 0.99,
+   "seed": 0,
+   "epochs": 22.278609730984943,
+   "logfid": 3.1935634809854507
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "3e19",
+   "f": 0.99,
+   "seed": 1,
+   "epochs": 22.278609730984943,
+   "logfid": 3.031193931961465
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "3e20",
+   "f": 0.27,
+   "seed": 0,
+   "epochs": 130.49134193466534,
+   "logfid": 0.8327783684854105
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "3e20",
+   "f": 0.5,
+   "seed": 0,
+   "epochs": 159.75773354150203,
+   "logfid": 0.7622988529149203
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "3e20",
+   "f": 0.65,
+   "seed": 0,
+   "epochs": 179.05193895145226,
+   "logfid": 0.78139397134542
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "3e20",
+   "f": 0.8,
+   "seed": 0,
+   "epochs": 198.34614436140248,
+   "logfid": 0.7859941099143362
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "3e20",
+   "f": 0.95,
+   "seed": 0,
+   "epochs": 217.64034977135265,
+   "logfid": 1.031502642057174
+  },
+  {
+   "route": "CONV",
+   "size": "XL",
+   "budget": "3e20",
+   "f": 0.99,
+   "seed": 0,
+   "epochs": 222.78549785638236,
+   "logfid": 1.3297687467694967
+  },
+  {
+   "route": "CONV",
+   "size": "XS",
+   "budget": "1e19",
+   "f": 0.25,
+   "seed": 0,
+   "epochs": 101.32453390535215,
+   "logfid": 2.295269579044154
+  },
+  {
+   "route": "CONV",
+   "size": "XS",
+   "budget": "1e19",
+   "f": 0.5,
+   "seed": 0,
+   "epochs": 133.59162877270222,
+   "logfid": 2.251771107978116
+  },
+  {
+   "route": "CONV",
+   "size": "XS",
+   "budget": "1e19",
+   "f": 0.65,
+   "seed": 0,
+   "epochs": 152.9520055838057,
+   "logfid": 2.255136904833599
+  },
+  {
+   "route": "CONV",
+   "size": "XS",
+   "budget": "1e19",
+   "f": 0.8,
+   "seed": 0,
+   "epochs": 172.31238239490912,
+   "logfid": 2.363281771194623
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+# training config of run r1_M_3e19_cd_s0 (osr.experiments.config_for; group grid)
+# torchrun --nproc_per_node <gpus> -m osr.train --config configs/examples/fm_cooldown_M_3e19.yaml
+run_id: r1_M_3e19_cd_s0
+out_root: work/runs
+kind: cooldown
+route: fm
+size: M
+seed: 0
+flops_end: 3.0e+19
+data:
+  root: work/latents/sdvae_mse_256
+  global_batch: 256
+  micro_batch: 64
+optim:
+  lr: 0.0001
+  betas:
+  - 0.9
+  - 0.95
+  wd: 0.0
+ema:
+  sigma_rels:
+  - 0.05
+  - 0.1
+ckpt_every_min: 20
+log_every: 100
+compile: true
+schedule:
+  cooldown_shape: linear
+init:
+  from: work/runs/r1_M_s0/milestones/cd_3e19.pt
+loss:
+  t_mean: -0.4
+  t_std: 1.0
+  class_dropout: 0.1

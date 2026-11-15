@@ -1,0 +1,10 @@
+# Python 3.12, CUDA GPU (tested with CUDA 13)
+torch==2.14.1
+torchvision==0.29.1
+diffusers==0.40.0
+safetensors==0.8.0
+torch-fidelity==0.4.0
+numpy==2.5.3
+pillow==12.3.0
+PyYAML==6.0.3
+pytest

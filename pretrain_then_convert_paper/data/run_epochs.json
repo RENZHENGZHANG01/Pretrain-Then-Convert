@@ -1,0 +1,1646 @@
+{
+ "r1_S_s0": {
+  "flops_per_sample": 68147396608.0,
+  "epochs": 113.39141891728401
+ },
+ "r1_S_1e19_cd_s0": {
+  "flops_per_sample": 68147396608.0,
+  "epochs": 114.53697449278665
+ },
+ "r1_S_s1": {
+  "flops_per_sample": 68147396608.0,
+  "epochs": 113.39141891728401
+ },
+ "r1_S_1e19_cd_s1": {
+  "flops_per_sample": 68147396608.0,
+  "epochs": 114.53697449278665
+ },
+ "r1_B_s0": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 518.1781672490783
+ },
+ "r1_B_1e19_cd_s0": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 52.34127947410447
+ },
+ "r1_B_3e19_cd_s0": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 157.02383842231342
+ },
+ "r1_B_1e20_cd_s0": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 523.4121952875777
+ },
+ "r1_B_s1": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 155.45347015650574
+ },
+ "r1_B_1e19_cd_s1": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 52.34127947410447
+ },
+ "r1_B_3e19_cd_s1": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 157.02383842231342
+ },
+ "r1_M_s0": {
+  "flops_per_sample": 298201251840.0,
+  "epochs": 667.4596645089985
+ },
+ "r1_M_1e19_cd_s0": {
+  "flops_per_sample": 298201251840.0,
+  "epochs": 26.174935820232648
+ },
+ "r1_M_3e19_cd_s0": {
+  "flops_per_sample": 298201251840.0,
+  "epochs": 78.52480746069794
+ },
+ "r1_M_1e20_cd_s0": {
+  "flops_per_sample": 298201251840.0,
+  "epochs": 261.7489585666818
+ },
+ "r1_M_3e20_cd_s0": {
+  "flops_per_sample": 298201251840.0,
+  "epochs": 785.246675882223
+ },
+ "r1_M_s1": {
+  "flops_per_sample": 298201251840.0,
+  "epochs": 77.73952341888294
+ },
+ "r1_M_1e19_cd_s1": {
+  "flops_per_sample": 298201251840.0,
+  "epochs": 26.174935820232648
+ },
+ "r1_M_3e19_cd_s1": {
+  "flops_per_sample": 298201251840.0,
+  "epochs": 78.52480746069794
+ },
+ "r1_L_s0": {
+  "flops_per_sample": 696710070272.0,
+  "epochs": 332.73523904377805
+ },
+ "r1_L_1e19_cd_s0": {
+  "flops_per_sample": 696710070272.0,
+  "epochs": 11.203385663227355
+ },
+ "r1_L_3e19_cd_s0": {
+  "flops_per_sample": 696710070272.0,
+  "epochs": 33.60975735403737
+ },
+ "r1_L_1e20_cd_s0": {
+  "flops_per_sample": 696710070272.0,
+  "epochs": 112.03205827187244
+ },
+ "r1_L_3e20_cd_s0": {
+  "flops_per_sample": 696710070272.0,
+  "epochs": 336.0961748156173
+ },
+ "r1_L_s1": {
+  "flops_per_sample": 696710070272.0,
+  "epochs": 33.27366377685345
+ },
+ "r1_L_1e19_cd_s1": {
+  "flops_per_sample": 696710070272.0,
+  "epochs": 11.203385663227355
+ },
+ "r1_L_3e19_cd_s1": {
+  "flops_per_sample": 696710070272.0,
+  "epochs": 33.60975735403737
+ },
+ "r1_XL_s0": {
+  "flops_per_sample": 1045029453824.0,
+  "epochs": 221.83115237904192
+ },
+ "r1_XL_3e19_cd_s0": {
+  "flops_per_sample": 1045029453824.0,
+  "epochs": 22.4071709620994
+ },
+ "r1_XL_1e20_cd_s0": {
+  "flops_per_sample": 1045029453824.0,
+  "epochs": 74.69070308554622
+ },
+ "r1_XL_3e20_cd_s0": {
+  "flops_per_sample": 1045029453824.0,
+  "epochs": 224.07170962099397
+ },
+ "r1_XL_s1": {
+  "flops_per_sample": 1045029453824.0,
+  "epochs": 22.183175183250896
+ },
+ "r1_XL_3e19_cd_s1": {
+  "flops_per_sample": 1045029453824.0,
+  "epochs": 22.4071709620994
+ },
+ "r1_H_s0": {
+  "flops_per_sample": 2317950124032.0,
+  "epochs": 100.01081826178789
+ },
+ "r1_H_1e20_cd_s0": {
+  "flops_per_sample": 2317950124032.0,
+  "epochs": 33.673699057187704
+ },
+ "r1_H_3e20_cd_s0": {
+  "flops_per_sample": 2317950124032.0,
+  "epochs": 101.02109717156311
+ },
+ "r2_S_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 34.03097332354018
+ },
+ "r2_S_1e19_cd_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 40.03649797411266
+ },
+ "r2_S_s1": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 34.03097332354018
+ },
+ "r2_S_1e19_cd_s1": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 40.03649797411266
+ },
+ "r2_B_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 467.96394849383415
+ },
+ "r2_B_1e19_cd_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 18.35166843978966
+ },
+ "r2_B_3e19_cd_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 55.05460568372429
+ },
+ "r2_B_1e20_cd_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 183.5152856731402
+ },
+ "r2_B_3e20_cd_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 550.5458570194206
+ },
+ "r2_B_s1": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 46.796534721859054
+ },
+ "r2_B_1e19_cd_s1": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 18.35166843978966
+ },
+ "r2_B_3e19_cd_s1": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 55.05460568372429
+ },
+ "r2_M_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 264.9830100213321
+ },
+ "r2_M_1e19_cd_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 10.391525851040496
+ },
+ "r2_M_3e19_cd_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 31.17457755312149
+ },
+ "r2_M_1e20_cd_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 103.91485887476027
+ },
+ "r2_M_3e20_cd_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 311.74457662428085
+ },
+ "r2_M_s1": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 26.498440874608853
+ },
+ "r2_M_1e19_cd_s1": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 10.391525851040496
+ },
+ "r2_M_3e19_cd_s1": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 31.17457755312149
+ },
+ "r2_L_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 117.51485949919098
+ },
+ "r2_L_1e19_cd_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 4.6085982545601
+ },
+ "r2_L_3e19_cd_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 13.82539512803561
+ },
+ "r2_L_1e20_cd_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 46.084384003022244
+ },
+ "r2_L_3e20_cd_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 138.25275237342206
+ },
+ "r2_L_s1": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 11.751485949919097
+ },
+ "r2_L_1e19_cd_s1": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 4.6085982545601
+ },
+ "r2_L_3e19_cd_s1": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 13.82539512803561
+ },
+ "r2_XL_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 81.12703496109407
+ },
+ "r2_XL_3e19_cd_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 9.544498102120956
+ },
+ "r2_XL_1e20_cd_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 31.814594038091833
+ },
+ "r2_XL_3e20_cd_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 95.44358229645316
+ },
+ "r2_XL_s1": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 8.112803405020578
+ },
+ "r2_XL_3e19_cd_s1": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 9.544498102120956
+ },
+ "r2_H_s0": {
+  "flops_per_sample": 5431046701056.0,
+  "epochs": 36.64818716061216
+ },
+ "r2_H_1e20_cd_s0": {
+  "flops_per_sample": 5431046701056.0,
+  "epochs": 14.371896872148596
+ },
+ "r2_H_3e20_cd_s0": {
+  "flops_per_sample": 5431046701056.0,
+  "epochs": 43.11549079862344
+ },
+ "r3_S_1e19_f0.50_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 20.01814907814516
+ },
+ "r3_S_1e19_f0.80_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 8.007299594822532
+ },
+ "r3_S_1e19_f0.95_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 2.001974762072392
+ },
+ "r3_S_1e19_f0.99_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 0.4004349159789473
+ },
+ "r3_S_1e19_f0.50_s1": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 20.01814907814516
+ },
+ "r3_S_1e19_f0.80_s1": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 8.007299594822532
+ },
+ "r3_S_1e19_f0.95_s1": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 2.001974762072392
+ },
+ "r3_S_1e19_f0.99_s1": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 0.4004349159789473
+ },
+ "r3_B_1e19_f0.50_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 9.17583421989483
+ },
+ "r3_B_1e19_f0.80_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 3.670453578651339
+ },
+ "r3_B_1e19_f0.95_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 0.9175634402072486
+ },
+ "r3_B_1e19_f0.99_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 0.18363257873485658
+ },
+ "r3_B_3e19_f0.50_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 27.527302841862145
+ },
+ "r3_B_3e19_f0.80_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 11.010961100309327
+ },
+ "r3_B_3e19_f0.95_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 2.7526903206217455
+ },
+ "r3_B_3e19_f0.99_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 0.5506979183822249
+ },
+ "r3_B_1e20_f0.50_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 91.75774274548127
+ },
+ "r3_B_1e20_f0.80_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 36.703137061756976
+ },
+ "r3_B_1e20_f0.95_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 9.17583421989483
+ },
+ "r3_B_1e20_f0.99_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 1.8351268804144971
+ },
+ "r3_B_1e19_f0.50_s1": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 9.17583421989483
+ },
+ "r3_B_1e19_f0.80_s1": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 3.670453578651339
+ },
+ "r3_B_1e19_f0.95_s1": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 0.9175634402072486
+ },
+ "r3_B_1e19_f0.99_s1": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 0.18363257873485658
+ },
+ "r3_B_3e19_f0.50_s1": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 27.527302841862145
+ },
+ "r3_B_3e19_f0.80_s1": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 11.010961100309327
+ },
+ "r3_B_3e19_f0.95_s1": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 2.7526903206217455
+ },
+ "r3_B_3e19_f0.99_s1": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 0.5506979183822249
+ },
+ "r3_M_1e19_f0.50_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 5.195862834431421
+ },
+ "r3_M_1e19_f0.80_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 2.0783051702080995
+ },
+ "r3_M_1e19_f0.95_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 0.5195263380964387
+ },
+ "r3_M_1e19_f0.99_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 0.10390526761928773
+ },
+ "r3_M_3e19_f0.50_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 15.587388685471918
+ },
+ "r3_M_3e19_f0.80_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 6.234915510624298
+ },
+ "r3_M_3e19_f0.95_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 1.5587788321116607
+ },
+ "r3_M_3e19_f0.99_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 0.31171580285786316
+ },
+ "r3_M_1e20_f0.50_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 51.957429437380135
+ },
+ "r3_M_1e20_f0.80_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 20.783051702080993
+ },
+ "r3_M_1e20_f0.95_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 5.195862834431421
+ },
+ "r3_M_1e20_f0.99_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 1.0392524940152221
+ },
+ "r3_M_1e19_f0.50_s1": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 5.195862834431421
+ },
+ "r3_M_1e19_f0.80_s1": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 2.0783051702080995
+ },
+ "r3_M_1e19_f0.95_s1": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 0.5195263380964387
+ },
+ "r3_M_1e19_f0.99_s1": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 0.10390526761928773
+ },
+ "r3_M_3e19_f0.50_s1": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 15.587388685471918
+ },
+ "r3_M_3e19_f0.80_s1": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 6.234915510624298
+ },
+ "r3_M_3e19_f0.95_s1": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 1.5587788321116607
+ },
+ "r3_M_3e19_f0.99_s1": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 0.31171580285786316
+ },
+ "r3_L_1e19_f0.50_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 2.30429912728005
+ },
+ "r3_L_1e19_f0.80_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 0.921759614476489
+ },
+ "r3_L_1e19_f0.95_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 0.23058976698588085
+ },
+ "r3_L_1e19_f0.99_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 0.046157916961645125
+ },
+ "r3_L_3e19_f0.50_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 6.912697564017805
+ },
+ "r3_L_3e19_f0.80_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 2.7650790256071223
+ },
+ "r3_L_3e19_f0.95_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 0.691369665312953
+ },
+ "r3_L_3e19_f0.99_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 0.1382739330625906
+ },
+ "r3_L_1e20_f0.50_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 23.042192001511122
+ },
+ "r3_L_1e20_f0.80_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 9.216996691297856
+ },
+ "r3_L_1e20_f0.95_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 2.30429912728005
+ },
+ "r3_L_1e20_f0.99_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 0.4607798983270721
+ },
+ "r3_L_3e20_f0.50_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 69.12637618671103
+ },
+ "r3_L_3e20_f0.80_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 27.650590438248877
+ },
+ "r3_L_3e20_f0.95_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 6.912697564017805
+ },
+ "r3_L_3e20_f0.99_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 1.3825395128035611
+ },
+ "r3_L_1e19_f0.50_s1": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 2.30429912728005
+ },
+ "r3_L_1e19_f0.80_s1": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 0.921759614476489
+ },
+ "r3_L_1e19_f0.95_s1": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 0.23058976698588085
+ },
+ "r3_L_1e19_f0.99_s1": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 0.046157916961645125
+ },
+ "r3_L_3e19_f0.50_s1": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 6.912697564017805
+ },
+ "r3_L_3e19_f0.80_s1": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 2.7650790256071223
+ },
+ "r3_L_3e19_f0.95_s1": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 0.691369665312953
+ },
+ "r3_L_3e19_f0.99_s1": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 0.1382739330625906
+ },
+ "r3_XL_3e19_f0.50_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 4.772249051060478
+ },
+ "r3_XL_3e19_f0.80_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 1.9088596568597225
+ },
+ "r3_XL_3e19_f0.95_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 0.4771649597593444
+ },
+ "r3_XL_3e19_f0.99_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 0.0955129190808068
+ },
+ "r3_XL_1e20_f0.50_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 15.907297019045917
+ },
+ "r3_XL_1e20_f0.80_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 6.362998734747305
+ },
+ "r3_XL_1e20_f0.95_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 1.5907496836868262
+ },
+ "r3_XL_1e20_f0.99_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 0.3181099731728963
+ },
+ "r3_XL_3e20_f0.50_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 47.72189105713775
+ },
+ "r3_XL_3e20_f0.80_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 19.08879638641957
+ },
+ "r3_XL_3e20_f0.95_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 4.772249051060478
+ },
+ "r3_XL_3e20_f0.99_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 0.9545297373410336
+ },
+ "r3_XL_3e19_f0.50_s1": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 4.772249051060478
+ },
+ "r3_XL_3e19_f0.80_s1": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 1.9088596568597225
+ },
+ "r3_XL_3e19_f0.95_s1": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 0.4771649597593444
+ },
+ "r3_XL_3e19_f0.99_s1": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 0.0955129190808068
+ },
+ "r3_H_3e20_f0.50_s0": {
+  "flops_per_sample": 5431046701056.0,
+  "epochs": 21.55774539931172
+ },
+ "r3_H_3e20_f0.80_s0": {
+  "flops_per_sample": 5431046701056.0,
+  "epochs": 8.623138123289158
+ },
+ "r3_H_3e20_f0.95_s0": {
+  "flops_per_sample": 5431046701056.0,
+  "epochs": 2.1558344852778757
+ },
+ "r3_H_3e20_f0.99_s0": {
+  "flops_per_sample": 5431046701056.0,
+  "epochs": 0.4312068606200441
+ },
+ "r1_S_rerun_s0": {
+  "flops_per_sample": 68147396608.0,
+  "epochs": 74.44892352050904
+ },
+ "r3_S_1e19_f0.25_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 30.027423435040085
+ },
+ "r3_S_1e19_f0.65_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 14.012824245395018
+ },
+ "r1_B_rerun_s0": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 34.02198152153466
+ },
+ "r3_B_1e19_f0.25_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 13.763651420931073
+ },
+ "r3_B_1e19_f0.65_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 6.423143899273085
+ },
+ "r1_B_ext3e19_s0": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 102.0655449289593
+ },
+ "r3_B_3e19_f0.65_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 19.26923187999691
+ },
+ "r1_M_ext3e19_s0": {
+  "flops_per_sample": 298201251840.0,
+  "epochs": 51.04106490410696
+ },
+ "r3_M_3e19_f0.65_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 10.911052189136935
+ },
+ "r1_M_ext1e20_s0": {
+  "flops_per_sample": 298201251840.0,
+  "epochs": 170.13688301368987
+ },
+ "r3_M_1e20_f0.65_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 36.37024056973057
+ },
+ "r1_L_ext3e20_s0": {
+  "flops_per_sample": 696710070272.0,
+  "epochs": 218.46262352995356
+ },
+ "r3_L_3e20_f0.65_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 48.38848331247995
+ },
+ "r1_XL_ext3e20_s0": {
+  "flops_per_sample": 1045029453824.0,
+  "epochs": 145.64661125364609
+ },
+ "r3_XL_3e20_f0.65_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 33.40534372177866
+ },
+ "r3_B_3e19_f0.27_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 40.37339082258597
+ },
+ "r3_M_3e19_f0.27_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 22.861356872289093
+ },
+ "r3_M_1e20_f0.24_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 78.97539665008543
+ },
+ "r3_L_1e20_f0.24_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 35.02406790059376
+ },
+ "r3_L_3e20_f0.27_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 101.38536506169766
+ },
+ "r3_XL_3e20_f0.27_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 69.99198699310863
+ },
+ "r2_S_ext3e19_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 102.09291997062054
+ },
+ "r2_S_3e19_cd_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 120.1090942866933
+ },
+ "r2_XS_s0": {
+  "flops_per_sample": 113027923968.0,
+  "epochs": 58.69868330982612
+ },
+ "r2_XS_1e19_cd_s0": {
+  "flops_per_sample": 113027923968.0,
+  "epochs": 69.05723922017972
+ },
+ "r1_XS_s0": {
+  "flops_per_sample": 39396016128.0,
+  "epochs": 168.40745976129577
+ },
+ "r1_XS_1e19_cd_s0": {
+  "flops_per_sample": 39396016128.0,
+  "epochs": 198.12636447863548
+ },
+ "r3_XS_1e19_f0.25_s0": {
+  "flops_per_sample": 113027923968.0,
+  "epochs": 51.792979369590384
+ },
+ "r3_XS_1e19_f0.50_s0": {
+  "flops_per_sample": 113027923968.0,
+  "epochs": 34.52851970117869
+ },
+ "r3_XS_1e19_f0.65_s0": {
+  "flops_per_sample": 113027923968.0,
+  "epochs": 24.169963790825083
+ },
+ "r3_XS_1e19_f0.80_s0": {
+  "flops_per_sample": 113027923968.0,
+  "epochs": 13.811407880471476
+ },
+ "r2_XS_ext3e19_s0": {
+  "flops_per_sample": 113027923968.0,
+  "epochs": 176.095850111656
+ },
+ "r2_XS_3e19_cd_s0": {
+  "flops_per_sample": 113027923968.0,
+  "epochs": 207.17151784271684
+ },
+ "r2_S_ext3e19_s1": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 102.09291997062054
+ },
+ "r2_S_3e19_cd_s1": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 120.1090942866933
+ },
+ "r3_L_3e20_f0.50_s0st1": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 69.12637618671103
+ },
+ "r1_L_3e20_cd_s0st1": {
+  "flops_per_sample": 696710070272.0,
+  "epochs": 336.0961748156173
+ },
+ "r3_XL_3e20_f0.50_s0st1": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 47.72189105713775
+ },
+ "r1_XL_3e20_cd_s0st1": {
+  "flops_per_sample": 1045029453824.0,
+  "epochs": 224.07170962099397
+ },
+ "r2_M_3e20_cd_s0st1": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 311.74457662428085
+ },
+ "r2_L_3e20_cd_s0st1": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 138.25275237342206
+ },
+ "r1_B_lr5e-05_s0": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 44.49003759853321
+ },
+ "r1_B_lr5e-05_1e19_cd_s0": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 52.34127947410447
+ },
+ "r1_B_lr0.0002_s0": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 44.49003759853321
+ },
+ "r1_B_lr0.0002_1e19_cd_s0": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 52.34127947410447
+ },
+ "r1_B_lr0.0004_s0": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 44.49003759853321
+ },
+ "r1_B_lr0.0004_1e19_cd_s0": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 52.34127947410447
+ },
+ "r1_L_lr5e-05_s0": {
+  "flops_per_sample": 696710070272.0,
+  "epochs": 9.52291777730772
+ },
+ "r1_L_lr5e-05_1e19_cd_s0": {
+  "flops_per_sample": 696710070272.0,
+  "epochs": 11.203385663227355
+ },
+ "r1_L_lr0.0002_s0": {
+  "flops_per_sample": 696710070272.0,
+  "epochs": 9.52291777730772
+ },
+ "r1_L_lr0.0002_1e19_cd_s0": {
+  "flops_per_sample": 696710070272.0,
+  "epochs": 11.203385663227355
+ },
+ "r1_L_lr0.0004_s0": {
+  "flops_per_sample": 696710070272.0,
+  "epochs": 9.52291777730772
+ },
+ "r1_L_lr0.0004_1e19_cd_s0": {
+  "flops_per_sample": 696710070272.0,
+  "epochs": 11.203385663227355
+ },
+ "r1_B_lr0.0002_3e19_s0": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 133.47011279559965
+ },
+ "r1_B_lr0.0002_3e19_cd_s0": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 157.02383842231342
+ },
+ "r2_B_lr5e-05_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 15.598978119167915
+ },
+ "r2_B_lr5e-05_1e19_cd_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 18.35166843978966
+ },
+ "r2_B_lr0.0002_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 15.598978119167915
+ },
+ "r2_B_lr0.0002_1e19_cd_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 18.35166843978966
+ },
+ "r2_B_lr0.0004_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 15.598978119167915
+ },
+ "r2_B_lr0.0004_1e19_cd_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 18.35166843978966
+ },
+ "r2_L_lr5e-05_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 3.9172285892471472
+ },
+ "r2_L_lr5e-05_1e19_cd_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 4.6085982545601
+ },
+ "r2_L_lr0.0002_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 3.9172285892471472
+ },
+ "r2_L_lr0.0002_1e19_cd_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 4.6085982545601
+ },
+ "r2_L_lr0.0004_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 3.9172285892471472
+ },
+ "r2_L_lr0.0004_1e19_cd_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 4.6085982545601
+ },
+ "r2_B_lr0.0002_3e19_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 46.796534721859054
+ },
+ "r2_B_lr0.0002_3e19_cd_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 55.05460568372429
+ },
+ "r2_M_lr0.0002_big_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 264.9830100213321
+ },
+ "r2_M_lr0.0002_1e20_cd_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 103.91485887476027
+ },
+ "r2_M_lr0.0002_3e20_cd_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 311.74457662428085
+ },
+ "r2_M_lr0.0004_big_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 264.9830100213321
+ },
+ "r2_M_lr0.0004_1e20_cd_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 103.91485887476027
+ },
+ "r2_M_lr0.0004_3e20_cd_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 311.74457662428085
+ },
+ "r2_S_lr0.0002_small_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 102.09291997062054
+ },
+ "r2_S_lr0.0002_1e19_cd_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 40.03649797411266
+ },
+ "r2_S_lr0.0002_3e19_cd_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 120.1090942866933
+ },
+ "r1_S_lr0.0002_small_s0": {
+  "flops_per_sample": 68147396608.0,
+  "epochs": 57.2685871553045
+ },
+ "r3_S_1e19_f0.50_flr0.0002_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 20.01814907814516
+ },
+ "r1_M_lr0.0002_small_s0": {
+  "flops_per_sample": 298201251840.0,
+  "epochs": 51.04106490410696
+ },
+ "r3_M_3e19_f0.65_flr0.0002_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 10.911052189136935
+ },
+ "r2_S_lr0.0004_small_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 102.09291997062054
+ },
+ "r2_S_lr0.0004_1e19_cd_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 40.03649797411266
+ },
+ "r2_S_lr0.0004_3e19_cd_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 120.1090942866933
+ },
+ "r1_S_lr0.0004_small_s0": {
+  "flops_per_sample": 68147396608.0,
+  "epochs": 57.2685871553045
+ },
+ "r3_S_1e19_f0.50_flr0.0004_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 20.01814907814516
+ },
+ "r1_M_lr0.0004_small_s0": {
+  "flops_per_sample": 298201251840.0,
+  "epochs": 51.04106490410696
+ },
+ "r3_M_3e19_f0.65_flr0.0004_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 10.911052189136935
+ },
+ "r2_S_lr0.0008_small_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 102.09291997062054
+ },
+ "r2_S_lr0.0008_1e19_cd_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 40.03649797411266
+ },
+ "r2_S_lr0.0008_3e19_cd_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 120.1090942866933
+ },
+ "r1_S_lr0.0008_small_s0": {
+  "flops_per_sample": 68147396608.0,
+  "epochs": 57.2685871553045
+ },
+ "r3_S_1e19_f0.50_flr0.0008_s0": {
+  "flops_per_sample": 194957352960.0,
+  "epochs": 20.01814907814516
+ },
+ "r1_M_lr0.0008_small_s0": {
+  "flops_per_sample": 298201251840.0,
+  "epochs": 51.04106490410696
+ },
+ "r3_M_3e19_f0.65_flr0.0008_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 10.911052189136935
+ },
+ "r3_B_1e19_f0.80_lr5e-05_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 3.670453578651339
+ },
+ "r3_B_1e19_f0.80_lr0.0002_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 3.670453578651339
+ },
+ "r3_M_3e19_f0.50_lr5e-05_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 15.587388685471918
+ },
+ "r3_M_3e19_f0.50_lr0.0002_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 15.587388685471918
+ },
+ "r3_M_3e19_f0.50_lr0.0004_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 15.587388685471918
+ },
+ "r3_M_3e19_f0.65_lr5e-05_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 10.911052189136935
+ },
+ "r3_M_3e19_f0.65_lr0.0002_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 10.911052189136935
+ },
+ "r3_M_3e19_f0.65_lr0.0004_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 10.911052189136935
+ },
+ "r3_M_3e19_f0.80_lr5e-05_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 6.234915510624298
+ },
+ "r3_M_3e19_f0.80_lr0.0002_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 6.234915510624298
+ },
+ "r3_M_3e19_f0.80_lr0.0004_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 6.234915510624298
+ },
+ "r3_M_3e19_f0.95_lr5e-05_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 1.5587788321116607
+ },
+ "r3_M_3e19_f0.95_lr0.0002_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 1.5587788321116607
+ },
+ "r3_M_3e19_f0.95_lr0.0004_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 1.5587788321116607
+ },
+ "r3_M_3e19_f0.99_lr5e-05_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 0.31171580285786316
+ },
+ "r3_M_3e19_f0.99_lr0.0002_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 0.31171580285786316
+ },
+ "r3_M_3e19_f0.99_lr0.0004_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 0.31171580285786316
+ },
+ "r3_B_1e19_f0.95_lr0.0002_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 0.9175634402072486
+ },
+ "r3_B_1e19_f0.95_lr0.0004_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 0.9175634402072486
+ },
+ "r3_B_1e19_f0.99_lr0.0002_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 0.18363257873485658
+ },
+ "r3_B_1e19_f0.99_lr0.0004_s0": {
+  "flops_per_sample": 425326116864.0,
+  "epochs": 0.18363257873485658
+ },
+ "r3_XL_3e20_f0.50_lr5e-05_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 47.72189105713775
+ },
+ "r3_XL_3e20_f0.65_lr5e-05_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 33.40534372177866
+ },
+ "r3_XL_3e20_f0.80_lr5e-05_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 19.08879638641957
+ },
+ "r1_B_rerun2_s0": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 13.085469731892875
+ },
+ "r1_M_rerun_s0": {
+  "flops_per_sample": 298201251840.0,
+  "epochs": 6.5438338639693345
+ },
+ "r3_M_3e19_f0.083_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 28.57654622699461
+ },
+ "r3_M_1e20_f0.095_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 94.04285936181621
+ },
+ "r3_M_3e19_f0.65_naive_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 10.911052189136935
+ },
+ "r3_M_1e20_f0.65_naive_s0": {
+  "flops_per_sample": 751132803072.0,
+  "epochs": 36.37024056973057
+ },
+ "v2_H_fm_s0": {
+  "flops_per_sample": 2317950124032.0,
+  "epochs": 286.2260423504508
+ },
+ "v1_XL_main_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 270.4232500524912
+ },
+ "v1_XL_1e21_cd_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 318.145141109629
+ },
+ "v2_XL_ext_s0": {
+  "flops_per_sample": 1045029453824.0,
+  "epochs": 448.14341924198794
+ },
+ "v2_XL_1e21_f0.60_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 127.25797651672265
+ },
+ "v2_H_1e21_f0.60_s0": {
+  "flops_per_sample": 5431046701056.0,
+  "epochs": 57.487187852949695
+ },
+ "v2_H_1e21_cd_s0": {
+  "flops_per_sample": 2317950124032.0,
+  "epochs": 336.73659093623235
+ },
+ "r4_B_XL1e20_d1e19_s0": {
+  "flops_per_sample": 15969420378112.0,
+  "epochs": null
+ },
+ "r4_B_XL1e20_d3e19_s0": {
+  "flops_per_sample": 15969420378112.0,
+  "epochs": null
+ },
+ "r4_B_XL1e20_d1e20_s0": {
+  "flops_per_sample": 15969420378112.0,
+  "epochs": null
+ },
+ "r4_M_XL1e20_d1e19_s0": {
+  "flops_per_sample": 16366957035520.0,
+  "epochs": null
+ },
+ "r4_M_XL1e20_d3e19_s0": {
+  "flops_per_sample": 16366957035520.0,
+  "epochs": null
+ },
+ "r4_M_XL1e20_d1e20_s0": {
+  "flops_per_sample": 16366957035520.0,
+  "epochs": null
+ },
+ "r4_B_L1e20_d1e19_s0": {
+  "flops_per_sample": 10159105048576.0,
+  "epochs": null
+ },
+ "r4_B_L1e20_d3e19_s0": {
+  "flops_per_sample": 10159105048576.0,
+  "epochs": null
+ },
+ "r4_B_L1e20_d1e20_s0": {
+  "flops_per_sample": 10159105048576.0,
+  "epochs": null
+ },
+ "r4_M_L1e20_d1e19_s0": {
+  "flops_per_sample": 10556641705984.0,
+  "epochs": null
+ },
+ "r4_M_L1e20_d3e19_s0": {
+  "flops_per_sample": 10556641705984.0,
+  "epochs": null
+ },
+ "r4_M_L1e20_d1e20_s0": {
+  "flops_per_sample": 10556641705984.0,
+  "epochs": null
+ },
+ "r4_B_XL3e20_d1e19_s0": {
+  "flops_per_sample": 15969420378112.0,
+  "epochs": null
+ },
+ "r4_B_XL3e20_d3e19_s0": {
+  "flops_per_sample": 15969420378112.0,
+  "epochs": null
+ },
+ "r4_B_XL3e20_d1e20_s0": {
+  "flops_per_sample": 15969420378112.0,
+  "epochs": null
+ },
+ "r4_M_XL3e20_d1e19_s0": {
+  "flops_per_sample": 16366957035520.0,
+  "epochs": null
+ },
+ "r4_M_XL3e20_d3e19_s0": {
+  "flops_per_sample": 16366957035520.0,
+  "epochs": null
+ },
+ "r4_M_XL3e20_d1e20_s0": {
+  "flops_per_sample": 16366957035520.0,
+  "epochs": null
+ },
+ "r4_B_L3e20_d1e19_s0": {
+  "flops_per_sample": 10159105048576.0,
+  "epochs": null
+ },
+ "r4_B_L3e20_d3e19_s0": {
+  "flops_per_sample": 10159105048576.0,
+  "epochs": null
+ },
+ "r4_B_L3e20_d1e20_s0": {
+  "flops_per_sample": 10159105048576.0,
+  "epochs": null
+ },
+ "r4_M_L3e20_d1e19_s0": {
+  "flops_per_sample": 10556641705984.0,
+  "epochs": null
+ },
+ "r4_M_L3e20_d3e19_s0": {
+  "flops_per_sample": 10556641705984.0,
+  "epochs": null
+ },
+ "r4_M_L3e20_d1e20_s0": {
+  "flops_per_sample": 10556641705984.0,
+  "epochs": null
+ },
+ "r4_L_L1e20_d3e19_selfinit_s0": {
+  "flops_per_sample": 11619336257536.0,
+  "epochs": null
+ },
+ "r4_XL_XL3e20_d3e19_selfinit_s0": {
+  "flops_per_sample": 18358503276544.0,
+  "epochs": null
+ },
+ "r4_B_XL1e20_d1e19_init3e19_s0": {
+  "flops_per_sample": 15969420378112.0,
+  "epochs": null
+ },
+ "r4_B_L1e20_d1e19_init3e19_s0": {
+  "flops_per_sample": 10159105048576.0,
+  "epochs": null
+ },
+ "r4s_B_B1e20_base_s0": {
+  "flops_per_sample": 1823778127872.0,
+  "epochs": null
+ },
+ "r4s_B_B1e20_lr3e-6_s0": {
+  "flops_per_sample": 1823778127872.0,
+  "epochs": null
+ },
+ "r4s_B_B1e20_lr3e-5_s0": {
+  "flops_per_sample": 1823778127872.0,
+  "epochs": null
+ },
+ "r4s_B_B1e20_ttur3_s0": {
+  "flops_per_sample": 1227204163584.0,
+  "epochs": null
+ },
+ "r4s_B_B1e20_ttur10_s0": {
+  "flops_per_sample": 3315213038592.0,
+  "epochs": null
+ },
+ "r4s_B_B1e20_gan0_s0": {
+  "flops_per_sample": 1292437684224.0,
+  "epochs": null
+ },
+ "r4s_B_B1e20_gan3x_s0": {
+  "flops_per_sample": 1823778127872.0,
+  "epochs": null
+ },
+ "r4s_B_B1e20_lr1e-4_s0": {
+  "flops_per_sample": 1823778127872.0,
+  "epochs": null
+ },
+ "r4s_B_B1e20_lr3e-4_s0": {
+  "flops_per_sample": 1823778127872.0,
+  "epochs": null
+ },
+ "r4s_B_L1e20_lr3e-5_s0": {
+  "flops_per_sample": 10159105048576.0,
+  "epochs": null
+ },
+ "r4s_B_L1e20_lr1e-4_s0": {
+  "flops_per_sample": 10159105048576.0,
+  "epochs": null
+ },
+ "r4_L_L1e20_d3e19_selfinit_lr1e-4_s0": {
+  "flops_per_sample": 11619336257536.0,
+  "epochs": null
+ },
+ "r4_XL_XL3e20_d3e19_selfinit_lr1e-4_s0": {
+  "flops_per_sample": 18358503276544.0,
+  "epochs": null
+ },
+ "r4_M_L1e20_d1e20_lr1e-4_s0": {
+  "flops_per_sample": 10556641705984.0,
+  "epochs": null
+ },
+ "r4_B_L1e20_d1e19_lr1e-4_s0": {
+  "flops_per_sample": 10159105048576.0,
+  "epochs": null
+ },
+ "r3_XL_sunk3e20_d3e19_s0": {
+  "flops_per_sample": 2453404909568.0,
+  "epochs": 9.544498102120956
+ },
+ "r3_L_sunk1e20_d3e19_s0": {
+  "flops_per_sample": 1693720641536.0,
+  "epochs": 13.82539512803561
+ },
+ "t2_B_s0": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 37.30139162185726
+ },
+ "t2_B_1e19_cd_s0": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 43.88399014336148
+ },
+ "t2_M_s0": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 55.71820067173132
+ },
+ "t2_M_1e19_cd_s0": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 21.850278691224485
+ },
+ "t2_M_3e19_cd_s0": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 65.55083607367345
+ },
+ "t3_B_1e19_f0.25_s0": {
+  "flops_per_sample": 178640885760.0,
+  "epochs": 32.76992304672225
+ },
+ "t3_B_1e19_f0.50_s0": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 21.94199507168074
+ },
+ "t3_B_1e19_f0.80_s0": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 8.776798028672296
+ },
+ "t3_B_1e19_f0.95_s0": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 2.194199507168074
+ },
+ "t3_B_1e19_f0.99_s0": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 0.43879993786914584
+ },
+ "t3_M_1e19_f0.25_s0": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 16.38765906396278
+ },
+ "t3_M_1e19_f0.50_s0": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 10.925239254523415
+ },
+ "t3_M_1e19_f0.80_s0": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 4.370215592502773
+ },
+ "t3_M_1e19_f0.95_s0": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 1.0924040347589346
+ },
+ "t3_M_1e19_f0.99_s0": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 0.2186006976451938
+ },
+ "t3_M_3e19_f0.27_s0": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 48.070573157129395
+ },
+ "t3_M_3e19_f0.50_s0": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 32.77531812792556
+ },
+ "t3_M_3e19_f0.65_s0": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 22.942882543805766
+ },
+ "t3_M_3e19_f0.80_s0": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 13.11024714186363
+ },
+ "t3_M_3e19_f0.95_s0": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 3.277411922099149
+ },
+ "t3_M_3e19_f0.99_s0": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 0.6556022751132367
+ },
+ "g3fm_B_s1": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 51.81795659738348
+ },
+ "g3fm_M_s1": {
+  "flops_per_sample": 298201251840.0,
+  "epochs": 77.73952341888294
+ },
+ "t2_B_s1": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 37.30139162185726
+ },
+ "t2_B_1e19_cd_s1": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 43.88399014336148
+ },
+ "t2_M_s1": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 55.71820067173132
+ },
+ "t2_M_1e19_cd_s1": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 21.850278691224485
+ },
+ "t2_M_3e19_cd_s1": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 65.55083607367345
+ },
+ "t3_B_1e19_f0.25_s1": {
+  "flops_per_sample": 178640885760.0,
+  "epochs": 32.76992304672225
+ },
+ "t3_B_1e19_f0.50_s1": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 21.94199507168074
+ },
+ "t3_B_1e19_f0.80_s1": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 8.776798028672296
+ },
+ "t3_B_1e19_f0.95_s1": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 2.194199507168074
+ },
+ "t3_B_1e19_f0.99_s1": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 0.43879993786914584
+ },
+ "t3_M_1e19_f0.25_s1": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 16.38765906396278
+ },
+ "t3_M_1e19_f0.50_s1": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 10.925239254523415
+ },
+ "t3_M_1e19_f0.80_s1": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 4.370215592502773
+ },
+ "t3_M_1e19_f0.95_s1": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 1.0924040347589346
+ },
+ "t3_M_1e19_f0.99_s1": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 0.2186006976451938
+ },
+ "t3_M_3e19_f0.27_s1": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 48.070573157129395
+ },
+ "t3_M_3e19_f0.50_s1": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 32.77531812792556
+ },
+ "t3_M_3e19_f0.65_s1": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 22.942882543805766
+ },
+ "t3_M_3e19_f0.80_s1": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 13.11024714186363
+ },
+ "t3_M_3e19_f0.95_s1": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 3.277411922099149
+ },
+ "t3_M_3e19_f0.99_s1": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 0.6556022751132367
+ },
+ "g3fm_B_s2": {
+  "flops_per_sample": 149125005312.0,
+  "epochs": 51.81795659738348
+ },
+ "g3fm_M_s2": {
+  "flops_per_sample": 298201251840.0,
+  "epochs": 77.73952341888294
+ },
+ "t2_B_s2": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 37.30139162185726
+ },
+ "t2_B_1e19_cd_s2": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 43.88399014336148
+ },
+ "t2_M_s2": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 55.71820067173132
+ },
+ "t2_M_1e19_cd_s2": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 21.850278691224485
+ },
+ "t2_M_3e19_cd_s2": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 65.55083607367345
+ },
+ "t3_B_1e19_f0.25_s2": {
+  "flops_per_sample": 178640885760.0,
+  "epochs": 32.76992304672225
+ },
+ "t3_B_1e19_f0.50_s2": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 21.94199507168074
+ },
+ "t3_B_1e19_f0.80_s2": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 8.776798028672296
+ },
+ "t3_B_1e19_f0.95_s2": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 2.194199507168074
+ },
+ "t3_B_1e19_f0.99_s2": {
+  "flops_per_sample": 177864152064.0,
+  "epochs": 0.43879993786914584
+ },
+ "t3_M_1e19_f0.25_s2": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 16.38765906396278
+ },
+ "t3_M_1e19_f0.50_s2": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 10.925239254523415
+ },
+ "t3_M_1e19_f0.80_s2": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 4.370215592502773
+ },
+ "t3_M_1e19_f0.95_s2": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 1.0924040347589346
+ },
+ "t3_M_1e19_f0.99_s2": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 0.2186006976451938
+ },
+ "t3_M_3e19_f0.27_s2": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 48.070573157129395
+ },
+ "t3_M_3e19_f0.50_s2": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 32.77531812792556
+ },
+ "t3_M_3e19_f0.65_s2": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 22.942882543805766
+ },
+ "t3_M_3e19_f0.80_s2": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 13.11024714186363
+ },
+ "t3_M_3e19_f0.95_s2": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 3.277411922099149
+ },
+ "t3_M_3e19_f0.99_s2": {
+  "flops_per_sample": 357221806080.0,
+  "epochs": 0.6556022751132367
+ }
+}

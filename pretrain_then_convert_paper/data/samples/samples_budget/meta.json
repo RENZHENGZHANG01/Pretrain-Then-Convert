@@ -1,0 +1,136 @@
+{
+ "classes": [
+  88,
+  207,
+  279,
+  387,
+  417,
+  933,
+  973,
+  980
+ ],
+ "n": 2,
+ "seed": 20261022,
+ "runs": {
+  "r3_S_1e19_f0.50_s0": {
+   "route": "imf",
+   "size": "S",
+   "weights": "ema100",
+   "point": {
+    "omega": 5.5,
+    "t_min": 0.25,
+    "t_max": 0.75
+   },
+   "fid50k": 8.700494952412726,
+   "nfe": 1
+  },
+  "r3_M_3e19_f0.65_s0": {
+   "route": "imf",
+   "size": "M",
+   "weights": "ema100",
+   "point": {
+    "omega": 4.0,
+    "t_min": 0.25,
+    "t_max": 0.75
+   },
+   "fid50k": 4.73656875697543,
+   "nfe": 1
+  },
+  "r3_M_1e20_f0.65_s0": {
+   "route": "imf",
+   "size": "M",
+   "weights": "ema100",
+   "point": {
+    "omega": 7.0,
+    "t_min": 0.4,
+    "t_max": 0.65
+   },
+   "fid50k": 2.80668225839014,
+   "nfe": 1
+  },
+  "r3_XL_3e20_f0.50_s0": {
+   "route": "imf",
+   "size": "XL",
+   "weights": "ema050",
+   "point": {
+    "omega": 5.5,
+    "t_min": 0.35,
+    "t_max": 0.65
+   },
+   "fid50k": 2.1431974574518904,
+   "nfe": 1
+  },
+  "v2_XL_1e21_f0.60_s0": {
+   "route": "imf",
+   "size": "XL",
+   "weights": "ema100",
+   "point": {
+    "omega": 5.5,
+    "t_min": 0.4,
+    "t_max": 0.65
+   },
+   "fid50k": 1.750956263864282,
+   "nfe": 1
+  },
+  "r2_S_1e19_cd_s0": {
+   "route": "imf",
+   "size": "S",
+   "weights": "raw",
+   "point": {
+    "omega": 4.0,
+    "t_min": 0.0,
+    "t_max": 1.0
+   },
+   "fid50k": 13.09005322947064,
+   "nfe": 1
+  },
+  "r2_B_3e19_cd_s0": {
+   "route": "imf",
+   "size": "B",
+   "weights": "ema050",
+   "point": {
+    "omega": 5.5,
+    "t_min": 0.25,
+    "t_max": 0.75
+   },
+   "fid50k": 6.4333417425954735,
+   "nfe": 1
+  },
+  "r2_M_1e20_cd_s0": {
+   "route": "imf",
+   "size": "M",
+   "weights": "raw",
+   "point": {
+    "omega": 12.5,
+    "t_min": 0.4,
+    "t_max": 0.65
+   },
+   "fid50k": 3.6642459647429746,
+   "nfe": 1
+  },
+  "r2_M_3e20_cd_s0": {
+   "route": "imf",
+   "size": "M",
+   "weights": "ema050",
+   "point": {
+    "omega": 10.5,
+    "t_min": 0.5,
+    "t_max": 0.65
+   },
+   "fid50k": 2.4473253905875367,
+   "nfe": 1
+  },
+  "v1_XL_1e21_cd_s0": {
+   "route": "imf",
+   "size": "XL",
+   "weights": "ema050",
+   "point": {
+    "omega": 5.5,
+    "t_min": 0.4,
+    "t_max": 0.65
+   },
+   "fid50k": 1.9116433742777303,
+   "nfe": 1
+  }
+ }
+}

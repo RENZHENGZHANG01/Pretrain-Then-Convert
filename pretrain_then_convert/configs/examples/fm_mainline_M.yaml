@@ -1,0 +1,81 @@
+# training config of run r1_M_s0 (osr.experiments.config_for; group grid)
+# torchrun --nproc_per_node <gpus> -m osr.train --config configs/examples/fm_mainline_M.yaml
+run_id: r1_M_s0
+out_root: work/runs
+kind: mainline
+route: fm
+size: M
+seed: 0
+flops_end: 2.55e+20
+data:
+  root: work/latents/sdvae_mse_256
+  global_batch: 256
+  micro_batch: 64
+optim:
+  lr: 0.0001
+  betas:
+  - 0.9
+  - 0.95
+  wd: 0.0
+ema:
+  sigma_rels:
+  - 0.05
+  - 0.1
+ckpt_every_min: 20
+log_every: 100
+compile: true
+schedule:
+  warmup_steps: 5000
+milestones:
+- flops: 5.0e+18
+  kind: weights
+  tag: f0.50_1e19
+- flops: 8.0e+18
+  kind: weights
+  tag: f0.80_1e19
+- flops: 8.5e+18
+  kind: full
+  tag: cd_1e19
+- flops: 9.5e+18
+  kind: weights
+  tag: f0.95_1e19
+- flops: 9.9e+18
+  kind: weights
+  tag: f0.99_1e19
+- flops: 1.5e+19
+  kind: weights
+  tag: f0.50_3e19
+- flops: 2.4e+19
+  kind: weights
+  tag: f0.80_3e19
+- flops: 2.55e+19
+  kind: full
+  tag: cd_3e19
+- flops: 2.85e+19
+  kind: weights
+  tag: f0.95_3e19
+- flops: 2.97e+19
+  kind: weights
+  tag: f0.99_3e19
+- flops: 5.0e+19
+  kind: weights
+  tag: f0.50_1e20
+- flops: 8.0e+19
+  kind: weights
+  tag: f0.80_1e20
+- flops: 8.5e+19
+  kind: full
+  tag: cd_1e20
+- flops: 9.5e+19
+  kind: weights
+  tag: f0.95_1e20
+- flops: 9.9e+19
+  kind: weights
+  tag: f0.99_1e20
+- flops: 2.55e+20
+  kind: full
+  tag: cd_3e20
+loss:
+  t_mean: -0.4
+  t_std: 1.0
+  class_dropout: 0.1

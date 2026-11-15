@@ -1,0 +1,26 @@
+{
+ "run_id": "r3_B_1e19_f0.95_s0",
+ "version": 2,
+ "weights": "ema100",
+ "old_point": {
+  "omega": 10.5,
+  "t_min": 0.25,
+  "t_max": 0.75
+ },
+ "old_fid10k": 15.903894811111968,
+ "tried": [
+  {
+   "omega": 12.5,
+   "t_min": 0.25,
+   "t_max": 0.75,
+   "fid10k": 15.947827859841823
+  }
+ ],
+ "best_point": {
+  "omega": 10.5,
+  "t_min": 0.25,
+  "t_max": 0.75
+ },
+ "best_fid10k": 15.903894811111968,
+ "changed": false
+}

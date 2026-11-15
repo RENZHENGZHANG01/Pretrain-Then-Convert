@@ -1,0 +1,18 @@
+{
+ "run_id": "r3_L_sunk1e20_d3e19_s0",
+ "size": "L",
+ "route": "imf",
+ "kind": "convert",
+ "step": 69190,
+ "flops": 1.3000029772732118e+20,
+ "weights": "ema100",
+ "point": {
+  "omega": 4.0,
+  "t_min": 0.25,
+  "t_max": 0.75
+ },
+ "fid50k": 3.197890658071401,
+ "fid10k_sel": 5.5758339803487615,
+ "fid_2nfe_10k": 5.904845978427829,
+ "fid_noguid_10k": 14.289926228090565
+}

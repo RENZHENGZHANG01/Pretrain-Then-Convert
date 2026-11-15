@@ -1,0 +1,17 @@
+{
+ "run_id": "r4_XL_XL3e20_d3e19_selfinit_lr1e-4_s0",
+ "weights": "ema100",
+ "point": {
+  "omega": 1.75,
+  "t_min": 0.0,
+  "t_max": 1.0
+ },
+ "n": 50000,
+ "fid_jit_recheck": 4.15802455754357,
+ "fid50k_stageC": 4.15802455754357,
+ "fid_adm": 4.1489500373236865,
+ "fd_dinov2": 87.25496481666869,
+ "inception_score": 265.4238992191438,
+ "precision": 0.8579599857330322,
+ "recall": 0.4421999752521515
+}

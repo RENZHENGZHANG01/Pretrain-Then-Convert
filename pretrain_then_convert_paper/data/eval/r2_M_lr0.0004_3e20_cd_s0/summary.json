@@ -1,0 +1,19 @@
+{
+ "run_id": "r2_M_lr0.0004_3e20_cd_s0",
+ "size": "M",
+ "route": "imf",
+ "kind": "cooldown",
+ "step": 1560144,
+ "flops": 3.0000008599448637e+20,
+ "weights": "raw",
+ "point": {
+  "omega": 7.0,
+  "t_min": 0.4,
+  "t_max": 0.65
+ },
+ "fid50k": 2.7411178334680244,
+ "fid10k_sel": 5.147206072992276,
+ "fid_2nfe_10k": 5.030774332496094,
+ "fid_noguid_10k": 18.586054718520813,
+ "gridext": true
+}
